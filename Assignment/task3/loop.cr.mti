@@ -1,0 +1,8 @@
+C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module loop_tb
+
+Top level modules:
+	loop_tb
+
+} {} {}}

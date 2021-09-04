@@ -1,0 +1,15 @@
+# Compile of router_fsm.v was successful.
+vsim work.router_fsm_tb
+# vsim work.router_fsm_tb 
+# Start time: 08:55:49 on Apr 30,2021
+# Loading work.router_fsm_tb
+# Loading work.router_fsm
+add wave -position insertpoint sim:/router_fsm_tb/*
+run -all
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fsm_tb.v(98)
+#    Time: 755 ps  Iteration: 0  Instance: /router_fsm_tb
+# 1
+# Break in Module router_fsm_tb at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fsm_tb.v line 98
+quit -sim
+# End time: 09:01:48 on Apr 30,2021, Elapsed time: 0:05:59
+# Errors: 0, Warnings: 2

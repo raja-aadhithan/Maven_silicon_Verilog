@@ -1,0 +1,15 @@
+C:/Users/Aadhithan/Documents/Verilog_labs/lab6/coin/coin_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab6/coin/coin_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module coin_tb
+
+Top level modules:
+	coin_tb
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/Assignment/6/vending.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/Assignment/6/vending.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module vending
+
+Top level modules:
+	vending
+
+} {} {}}

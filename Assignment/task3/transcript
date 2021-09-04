@@ -1,0 +1,43 @@
+vsim work.loop_tb
+# vsim work.loop_tb 
+# Start time: 18:47:05 on Apr 29,2021
+# Loading work.loop_tb
+# Loading work.loop
+# WARNING: No extended dataflow license exists
+run -all
+# @time:  0 - output xxxxxxxx
+# @time: 10 - output 00000001
+# @time: 30 - output 00000010
+# @time: 40 - output 00000001
+# @time: 50 - output 00000100
+# @time: 60 - output 00000001
+# @time: 70 - output 00001000
+# @time: 80 - output 00000001
+# @time: 90 - output 00010000
+# @time:100 - output 00000001
+# @time:110 - output 00100000
+# @time:120 - output 00000001
+# @time:130 - output 01000000
+# @time:140 - output 00000001
+# @time:150 - output 10000000
+# @time:160 - output 00000001
+# @time:170 - output 00000010
+# @time:180 - output 00000001
+# @time:190 - output 00000100
+# @time:200 - output 00000001
+# @time:210 - output 00001000
+# @time:220 - output 00000001
+# @time:230 - output 00010000
+# @time:240 - output 00000001
+# @time:250 - output 00100000
+# @time:260 - output 00000001
+# @time:270 - output 01000000
+# @time:280 - output 00000001
+# @time:290 - output 10000000
+# @time:300 - output 00000001
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop_tb.v(18)
+#    Time: 310 ps  Iteration: 0  Instance: /loop_tb
+# 1
+# Break in Module loop_tb at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop_tb.v line 18
+# End time: 18:47:30 on Apr 29,2021, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 1

@@ -1,0 +1,39 @@
+vsim work.clk_tb
+# vsim work.clk_tb 
+# Start time: 13:28:05 on Apr 01,2021
+# Loading work.clk_tb
+# Loading work.clockbuf
+add wave -position insertpoint sim:/clk_tb/*
+run -all
+# @time:  0,in-clk:1,out-clk:z,z,z,z
+# @time:  5,in-clk:0,out-clk:z,z,z,z
+# @time: 10,in-clk:1,out-clk:z,z,z,z
+# @time: 15,in-clk:0,out-clk:z,z,z,z
+# @time: 20,in-clk:1,out-clk:z,z,z,z
+# @time: 25,in-clk:0,out-clk:z,z,z,z
+# @time: 30,in-clk:1,out-clk:z,z,z,z
+# @time: 35,in-clk:0,out-clk:z,z,z,z
+# @time: 40,in-clk:1,out-clk:1,1,1,1
+# @time: 45,in-clk:0,out-clk:0,0,0,0
+# @time: 50,in-clk:1,out-clk:1,1,1,1
+# @time: 55,in-clk:0,out-clk:0,0,0,0
+# @time: 60,in-clk:1,out-clk:1,1,1,1
+# @time: 65,in-clk:0,out-clk:0,0,0,0
+# @time: 70,in-clk:1,out-clk:1,1,1,1
+# @time: 75,in-clk:0,out-clk:0,0,0,0
+# @time: 80,in-clk:1,out-clk:1,1,1,1
+# @time: 85,in-clk:0,out-clk:0,0,0,0
+# @time: 90,in-clk:1,out-clk:1,1,1,1
+# @time: 95,in-clk:0,out-clk:0,0,0,0
+# @time:100,in-clk:1,out-clk:1,1,1,1
+# @time:105,in-clk:0,out-clk:0,0,0,0
+# @time:110,in-clk:1,out-clk:1,1,1,1
+# @time:115,in-clk:0,out-clk:0,0,0,0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clk_tb.v(15)
+#    Time: 120 ps  Iteration: 0  Instance: /clk_tb
+# 1
+# Break in Module clk_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clk_tb.v line 15
+quit -sim
+# End time: 13:32:08 on Apr 01,2021, Elapsed time: 0:04:03
+# Errors: 0, Warnings: 2
+# Closing project C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clock.mpf

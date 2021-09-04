@@ -1,0 +1,22 @@
+vsim work.decoder_tb
+# vsim work.decoder_tb 
+# Start time: 12:18:16 on Apr 01,2021
+# Loading work.decoder_tb
+# Loading work.decoder
+add wave -position insertpoint sim:/decoder_tb/*
+run -all
+# @time:  0ps - input is 000 , output is 00000001
+# @time: 10ps - input is 001 , output is 00000010
+# @time: 20ps - input is 010 , output is 00000100
+# @time: 30ps - input is 011 , output is 00001000
+# @time: 40ps - input is 100 , output is 00010000
+# @time: 50ps - input is 101 , output is 00100000
+# @time: 60ps - input is 110 , output is 01000000
+# @time: 70ps - input is 111 , output is 10000000
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab3/decoder/decoder_tb.v(12)
+#    Time: 80 ps  Iteration: 0  Instance: /decoder_tb
+# 1
+# Break in Module decoder_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab3/decoder/decoder_tb.v line 12
+quit -sim
+# End time: 12:20:20 on Apr 01,2021, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 1

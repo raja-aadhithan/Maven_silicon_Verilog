@@ -1,0 +1,36 @@
+C:/Users/Aadhithan/Documents/Verilog_labs/lab1/sim/ripple_adder.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/sim/ripple_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module ripple_adder
+
+Top level modules:
+	ripple_adder
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab1/rtl/full_adder.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/rtl/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab1/rtl/half_adder.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/rtl/half_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab1/tb/full_adder_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/tb/full_adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module full_adder_tb
+
+Top level modules:
+	full_adder_tb
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab1/sim/ripple_adder_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/sim/ripple_adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module ripple_adder_tb
+
+Top level modules:
+	ripple_adder_tb
+
+} {} {}}

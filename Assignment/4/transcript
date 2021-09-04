@@ -1,0 +1,117 @@
+# Compile of 1010.v was successful.
+# Compile of seq_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.seq_det_tb
+# vsim work.seq_det_tb 
+# Start time: 13:51:03 on Mar 28,2021
+# Loading work.seq_det_tb
+# Loading work.seq_det
+add wave -position insertpoint sim:/seq_det_tb/*
+run -all
+# Reset=x, state=xxx, Din=0, Output Dout=x
+# Reset=1, state=xxx, Din=0, Output Dout=x
+# Reset=1, state=000, Din=0, Output Dout=0
+# Reset=0, state=000, Din=0, Output Dout=0
+# Reset=0, state=000, Din=1, Output Dout=0
+# Reset=0, state=001, Din=1, Output Dout=0
+# Reset=0, state=001, Din=0, Output Dout=0
+# Reset=0, state=010, Din=0, Output Dout=0
+# Reset=0, state=010, Din=1, Output Dout=0
+# Reset=0, state=011, Din=1, Output Dout=0
+# Reset=0, state=011, Din=0, Output Dout=0
+# Reset=0, state=100, Din=0, Output Dout=1
+# Reset=0, state=100, Din=1, Output Dout=1
+# Reset=0, state=011, Din=1, Output Dout=0
+# Reset=1, state=000, Din=1, Output Dout=0
+# Reset=0, state=001, Din=1, Output Dout=0
+# Reset=0, state=001, Din=0, Output Dout=0
+# Reset=0, state=010, Din=0, Output Dout=0
+# Reset=0, state=010, Din=1, Output Dout=0
+# Reset=0, state=011, Din=1, Output Dout=0
+# Reset=0, state=001, Din=1, Output Dout=0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/Assignment/6/seq_tb.v(117)
+#    Time: 135 ps  Iteration: 0  Instance: /seq_det_tb
+# 1
+# Break in Module seq_det_tb at C:/Users/Aadhithan/Documents/Verilog_labs/Assignment/6/seq_tb.v line 117
+quit -sim
+# End time: 13:56:58 on Mar 28,2021, Elapsed time: 0:05:55
+# Errors: 0, Warnings: 12
+# Compile of 1010.v was successful.
+# Compile of seq_tb.v was successful.
+# Compile of 1011.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.seq_det_tb
+# vsim work.seq_det_tb 
+# Start time: 13:57:22 on Mar 28,2021
+# Loading work.seq_det_tb
+# Loading work.seq_det2
+add wave -position insertpoint sim:/seq_det_tb/*
+run -all
+# Reset=x, state=xx, Din=0, Output Dout=0
+# Reset=1, state=xx, Din=0, Output Dout=0
+# Reset=1, state=00, Din=0, Output Dout=0
+# Reset=0, state=00, Din=0, Output Dout=0
+# Reset=0, state=00, Din=1, Output Dout=0
+# Reset=0, state=01, Din=1, Output Dout=0
+# Reset=0, state=01, Din=0, Output Dout=0
+# Reset=0, state=10, Din=0, Output Dout=0
+# Reset=0, state=10, Din=1, Output Dout=0
+# Correct output at state 11
+# Reset=0, state=11, Din=1, Output Dout=1
+# Reset=0, state=11, Din=0, Output Dout=0
+# Reset=0, state=10, Din=0, Output Dout=0
+# Reset=0, state=10, Din=1, Output Dout=0
+# Correct output at state 11
+# Reset=0, state=11, Din=1, Output Dout=1
+# Reset=0, state=01, Din=1, Output Dout=0
+# Reset=1, state=00, Din=1, Output Dout=0
+# Reset=0, state=01, Din=1, Output Dout=0
+# Reset=0, state=01, Din=0, Output Dout=0
+# Reset=0, state=10, Din=0, Output Dout=0
+# Reset=0, state=10, Din=1, Output Dout=0
+# Correct output at state 11
+# Reset=0, state=11, Din=1, Output Dout=1
+# Reset=0, state=01, Din=1, Output Dout=0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/Assignment/6/seq_tb.v(117)
+#    Time: 135 ps  Iteration: 0  Instance: /seq_det_tb
+# 1
+# Break in Module seq_det_tb at C:/Users/Aadhithan/Documents/Verilog_labs/Assignment/6/seq_tb.v line 117
+quit -sim
+# End time: 14:10:06 on Mar 28,2021, Elapsed time: 0:12:44
+# Errors: 0, Warnings: 3
+# reading C:/intelFPGA_pro/20.4/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project vending
+# Compile of vending.v was successful.
+# Compile of coin_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of coin_tb.v was successful.
+vsim work.coin_tb
+# vsim work.coin_tb 
+# Start time: 14:11:46 on Mar 28,2021
+# Loading work.coin_tb
+# Loading work.vending
+add wave -position insertpoint sim:/coin_tb/*
+run -all
+# @time:  0,input (ij) is x,x and output (xy) is 0,0
+# @time: 15,input (ij) is 0,1 and output (xy) is 0,0
+# @time: 25,input (ij) is 0,0 and output (xy) is 0,0
+# @time: 35,input (ij) is 1,1 and output (xy) is 0,0
+# @time: 45,input (ij) is 1,0 and output (xy) is 0,0
+# @time: 50,input (ij) is 1,0 and output (xy) is 1,0
+# @time: 55,input (ij) is 0,1 and output (xy) is 1,0
+# @time: 60,input (ij) is 0,1 and output (xy) is 0,0
+# @time: 65,input (ij) is 1,1 and output (xy) is 0,0
+# @time: 85,input (ij) is 1,0 and output (xy) is 0,0
+# @time: 95,input (ij) is 1,1 and output (xy) is 0,0
+# @time:105,input (ij) is 1,0 and output (xy) is 0,0
+# @time:110,input (ij) is 1,0 and output (xy) is 1,1
+# @time:115,input (ij) is 0,1 and output (xy) is 1,1
+# @time:120,input (ij) is 0,1 and output (xy) is 0,0
+# @time:125,input (ij) is 1,1 and output (xy) is 0,0
+# @time:145,input (ij) is 1,0 and output (xy) is 0,0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab6/coin/coin_tb.v(56)
+#    Time: 155 ps  Iteration: 0  Instance: /coin_tb
+# 1
+# Break in Module coin_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab6/coin/coin_tb.v line 56
+# End time: 16:28:26 on Mar 28,2021, Elapsed time: 2:16:40
+# Errors: 0, Warnings: 7

@@ -1,0 +1,8 @@
+C:/Users/Aadhithan/Documents/Verilog_labs/lab6/coin.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab6/coin.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module coin
+
+Top level modules:
+	coin
+
+} {} {}}

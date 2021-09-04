@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram
+varam8x16
+!s110 1617686110
+!i10b 1
+!s100 LWAnd3m`GkGco4fFBjz`L3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ib@VM6>FSRIi]h4S:z5cGT2
+Z1 dC:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram
+w1617686100
+8C:\Users\Aadhithan\Documents\Verilog_labs\lab5\8x16ram\aram8x16.v
+FC:\Users\Aadhithan\Documents\Verilog_labs\lab5\8x16ram\aram8x16.v
+!i122 4
+L0 1 13
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1617686109.000000
+!s107 C:\Users\Aadhithan\Documents\Verilog_labs\lab5\8x16ram\aram8x16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Aadhithan\Documents\Verilog_labs\lab5\8x16ram\aram8x16.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vram8x16_tb
+!s110 1616821985
+!i10b 1
+!s100 m2ljR1?dWOlfic21DG8c:2
+R0
+IP;o[llXhW:EDb[k470>X`2
+R1
+w1616821977
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/ram8x168_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/ram8x168_tb.v
+!i122 3
+L0 1 39
+R2
+R3
+r1
+!s85 0
+31
+!s108 1616821985.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/ram8x168_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/ram8x168_tb.v|
+!i113 1
+R4
+R5

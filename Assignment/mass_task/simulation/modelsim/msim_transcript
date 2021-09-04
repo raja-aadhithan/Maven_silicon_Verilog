@@ -1,0 +1,31 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do mass_task_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/mass_task {C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/mass_task/mass_task.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:38:40 on Jun 03,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/mass_task" C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/mass_task/mass_task.v 
+# -- Compiling module mass_task
+# 
+# Top level modules:
+# 	mass_task
+# End time: 09:38:41 on Jun 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.mass_task
+# vsim work.mass_task 
+# Start time: 09:39:06 on Jun 03,2021
+# Loading work.mass_task
+run -all
+# End time: 09:39:24 on Jun 03,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0

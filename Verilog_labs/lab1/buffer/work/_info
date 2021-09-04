@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+vbufer
+Z0 !s110 1617083583
+!i10b 1
+!s100 3HQoDlWX?:?eozg1S0B1;1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ICU^;PdzHhOaQD?o1;?F?H1
+Z2 dC:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer
+w1617082814
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer.v
+!i122 25
+L0 1 4
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z5 !s108 1617083583.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vbufer_tb
+!s110 1617083664
+!i10b 1
+!s100 Hz9NBJ]h>PFXaY>FnhbWS2
+R1
+I^2>>L^A9l`N^3]=_gh82Q2
+R2
+w1617083660
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer_tb.v
+!i122 26
+Z8 L0 1 15
+R3
+R4
+r1
+!s85 0
+31
+!s108 1617083664.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer_tb.v|
+!i113 1
+R6
+R7
+vbuffer
+R0
+!i10b 1
+!s100 @@>AN6U^hjlkB>BTW=UaY1
+R1
+IN<idYD80zXHk]VPdL@ePP2
+R2
+w1616745685
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer.v
+!i122 22
+L0 1 7
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer.v|
+!i113 1
+R6
+R7
+vbuffer_tb
+R0
+!i10b 1
+!s100 j]:ea;6iLMNRM]h7zjb=j1
+R1
+IDd8U>Kni9R@zbcVKRbDQe2
+R2
+w1616745741
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer_tb.v
+!i122 23
+R8
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer_tb.v|
+!i113 1
+R6
+R7

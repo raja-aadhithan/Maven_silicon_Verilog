@@ -1,0 +1,11 @@
+set_global_assignment -name FAMILY "Cyclone 10 GX"
+set_global_assignment -name TOP_LEVEL_ENTITY router_fsm
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.4.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:24:16  APRIL 22, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.0 Pro Edition"
+set_global_assignment -name VERILOG_FILE ../router_fsm.v
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name DEVICE 10CX220YF780I5G
+set_instance_assignment -name PARTITION_COLOUR 4281878015 -to router_fsm -entity router_fsm

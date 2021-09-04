@@ -1,0 +1,36 @@
+C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module bufer_tb
+
+Top level modules:
+	bufer_tb
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buf.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buf.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module bufer
+
+Top level modules:
+	bufer
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/buffer_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module buffer_tb
+
+Top level modules:
+	buffer_tb
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer/bufer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module bufer
+
+Top level modules:
+	bufer
+
+} {} {}}

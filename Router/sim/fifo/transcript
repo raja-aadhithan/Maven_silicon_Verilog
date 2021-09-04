@@ -1,0 +1,68 @@
+# Compile of router_fifo.v was successful.
+# Compile of router_fifo_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.router_fifo_tb
+# vsim work.router_fifo_tb 
+# Start time: 08:47:45 on Apr 30,2021
+# Loading work.router_fifo_tb
+# Loading work.router_fifo
+add wave -position insertpoint sim:/router_fifo_tb/*
+run -all
+# @time:                    0, data_in: xx, data_out: 00, lfd: x, full: 0, empty: 1
+# @time:                   25, data_in: 3a, data_out: zz, lfd: 1, full: 0, empty: 1
+# @time:                   30, data_in: 3a, data_out: zz, lfd: 1, full: 0, empty: 0
+# @time:                   35, data_in: 81, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                   45, data_in: 09, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                   55, data_in: 63, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                   65, data_in: 0d, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                   75, data_in: 8d, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                   85, data_in: 65, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                   95, data_in: 12, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  105, data_in: 01, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  115, data_in: 0d, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  125, data_in: 76, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  135, data_in: 3d, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  145, data_in: ed, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  155, data_in: 8c, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  165, data_in: f9, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  175, data_in: c6, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  180, data_in: c6, data_out: zz, lfd: 0, full: 1, empty: 0
+# @time:                  190, data_in: c6, data_out: 3a, lfd: 0, full: 0, empty: 0
+# @time:                  200, data_in: c6, data_out: 81, lfd: 0, full: 0, empty: 0
+# @time:                  210, data_in: c6, data_out: 09, lfd: 0, full: 0, empty: 0
+# @time:                  220, data_in: c6, data_out: 63, lfd: 0, full: 0, empty: 0
+# @time:                  230, data_in: c6, data_out: 0d, lfd: 0, full: 0, empty: 0
+# @time:                  240, data_in: c6, data_out: 8d, lfd: 0, full: 0, empty: 0
+# @time:                  250, data_in: c6, data_out: 65, lfd: 0, full: 0, empty: 0
+# @time:                  260, data_in: c6, data_out: 12, lfd: 0, full: 0, empty: 0
+# @time:                  270, data_in: c6, data_out: 01, lfd: 0, full: 0, empty: 0
+# @time:                  280, data_in: c6, data_out: 0d, lfd: 0, full: 0, empty: 0
+# @time:                  290, data_in: c6, data_out: 76, lfd: 0, full: 0, empty: 0
+# @time:                  300, data_in: c6, data_out: 3d, lfd: 0, full: 0, empty: 0
+# @time:                  310, data_in: c6, data_out: ed, lfd: 0, full: 0, empty: 0
+# @time:                  320, data_in: c6, data_out: 8c, lfd: 0, full: 0, empty: 0
+# @time:                  330, data_in: c6, data_out: f9, lfd: 0, full: 0, empty: 0
+# @time:                  335, data_in: c5, data_out: f9, lfd: 0, full: 0, empty: 0
+# @time:                  340, data_in: c5, data_out: c6, lfd: 0, full: 0, empty: 0
+# @time:                  345, data_in: aa, data_out: c6, lfd: 0, full: 0, empty: 0
+# @time:                  350, data_in: aa, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  355, data_in: e5, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  370, data_in: e5, data_out: zz, lfd: 0, full: 0, empty: 1
+# @time:                  555, data_in: 10, data_out: zz, lfd: 1, full: 0, empty: 1
+# @time:                  560, data_in: 10, data_out: zz, lfd: 1, full: 0, empty: 0
+# @time:                  565, data_in: 12, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  575, data_in: 8f, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  585, data_in: f2, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  595, data_in: ce, data_out: zz, lfd: 0, full: 0, empty: 0
+# @time:                  610, data_in: ce, data_out: 10, lfd: 0, full: 0, empty: 0
+# @time:                  620, data_in: ce, data_out: 12, lfd: 0, full: 0, empty: 0
+# @time:                  630, data_in: ce, data_out: 8f, lfd: 0, full: 0, empty: 0
+# @time:                  640, data_in: ce, data_out: f2, lfd: 0, full: 0, empty: 0
+# @time:                  650, data_in: ce, data_out: ce, lfd: 0, full: 0, empty: 1
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo_tb.v(81)
+#    Time: 755 ps  Iteration: 0  Instance: /router_fifo_tb
+# 1
+# Break in Module router_fifo_tb at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo_tb.v line 81
+quit -sim
+# End time: 08:54:56 on Apr 30,2021, Elapsed time: 0:07:11
+# Errors: 0, Warnings: 2

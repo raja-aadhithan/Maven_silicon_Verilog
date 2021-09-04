@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft
+vclk_tb
+!s110 1616828489
+!i10b 1
+!s100 hiz3;6lD:6b9BmN[eL=de3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2?DoUelb4T>GJ@j8gVOQg3
+Z1 dC:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock
+w1616828475
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clk_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clk_tb.v
+!i122 4
+L0 1 17
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1616828489.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clk_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clk_tb.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vclockbuf
+!s110 1616828396
+!i10b 1
+!s100 <IgGc><m1mCkVO?9?8K>20
+R0
+Ia58]NZ7NH5b21Ae_`>NcW0
+R1
+w1616828005
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clockbuf.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clockbuf.v
+!i122 2
+L0 1 8
+R2
+R3
+r1
+!s85 0
+31
+!s108 1616828396.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clockbuf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clockbuf.v|
+!i113 1
+R4
+R5

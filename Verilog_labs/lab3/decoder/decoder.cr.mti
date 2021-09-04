@@ -1,0 +1,18 @@
+C:/Users/Aadhithan/Documents/Verilog_labs/lab3/decoder/decoder_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab3/decoder/decoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module decoder_tb
+
+Top level modules:
+	decoder_tb
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab3/decoder/decoder.v {2 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab3/decoder/decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module decoder
+** Warning: C:/Users/Aadhithan/Documents/Verilog_labs/lab3/decoder/decoder.v(17): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/Users/Aadhithan/Documents/Verilog_labs/lab3/decoder/decoder.v(17): (vlog-2284) Empty $unit scope found.
+-- Compiling package decoder_v_unit
+
+Top level modules:
+	decoder
+
+} {} {}}

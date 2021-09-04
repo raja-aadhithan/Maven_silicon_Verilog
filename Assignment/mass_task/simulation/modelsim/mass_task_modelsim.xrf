@@ -1,0 +1,7 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/mass_task/mass_task.v
+source_file = 1, C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/mass_task/db/mass_task.cbx.xml
+design_name = mass_task
+instance = comp, \clk~I , clk, mass_task, 1
+instance = comp, \d~I , d, mass_task, 1
+instance = comp, \y~I , y, mass_task, 1

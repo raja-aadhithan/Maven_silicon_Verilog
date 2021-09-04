@@ -1,0 +1,149 @@
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 13:12:53 on Apr 01,2021
+# Loading work.fifo_tb
+# Loading work.fifo
+run -all
+# $@time:  0, read :x, write :x, datain = xxxxxxxx, dataout = xxxxxxxx
+# $@time: 20, read :0, write :1, datain = 00000101, dataout = xxxxxxxx
+# $@time: 30, read :0, write :1, datain = 00001111, dataout = xxxxxxxx
+# $@time: 40, read :0, write :1, datain = 00010101, dataout = xxxxxxxx
+# $@time: 50, read :0, write :1, datain = 00011111, dataout = xxxxxxxx
+# $@time: 60, read :0, write :1, datain = 00101001, dataout = xxxxxxxx
+# $@time: 70, read :0, write :1, datain = 00001100, dataout = xxxxxxxx
+# $@time: 80, read :0, write :1, datain = 00001101, dataout = xxxxxxxx
+# $@time: 90, read :0, write :1, datain = 00100001, dataout = xxxxxxxx
+# $@time:100, read :0, write :1, datain = 00101010, dataout = xxxxxxxx
+# $@time:110, read :0, write :1, datain = 00010000, dataout = xxxxxxxx
+# $@time:120, read :1, write :1, datain = 00000010, dataout = 00000101
+# $@time:130, read :1, write :1, datain = 00000001, dataout = 00001111
+# $@time:140, read :1, write :1, datain = 00000010, dataout = 00010101
+# $@time:150, read :1, write :1, datain = 00000011, dataout = 00011111
+# $@time:160, read :1, write :1, datain = 00000100, dataout = 00101001
+# $@time:170, read :1, write :1, datain = 00010101, dataout = 00001100
+# $@time:180, read :1, write :1, datain = 00011111, dataout = 00001101
+# $@time:190, read :1, write :1, datain = 00101001, dataout = 00100001
+# $@time:200, read :1, write :1, datain = 00001100, dataout = 00101010
+# $@time:210, read :1, write :1, datain = 00001101, dataout = 00010000
+# $@time:220, read :1, write :1, datain = 00010101, dataout = 00000010
+# $@time:230, read :1, write :1, datain = 00011111, dataout = 00000001
+# $@time:240, read :1, write :1, datain = 00101001, dataout = 00000010
+# $@time:250, read :1, write :1, datain = 00001100, dataout = 00000011
+# $@time:260, read :1, write :1, datain = 00001101, dataout = 00000100
+# $@time:270, read :1, write :0, datain = 00001101, dataout = 00010101
+# $@time:280, read :1, write :0, datain = 00001101, dataout = 00011111
+# $@time:290, read :1, write :0, datain = 00001101, dataout = 00101001
+# $@time:300, read :0, write :1, datain = 00001010, dataout = 00101001
+# $@time:310, read :0, write :1, datain = 00001011, dataout = 00101001
+# $@time:320, read :0, write :1, datain = 00010101, dataout = 00101001
+# $@time:330, read :0, write :1, datain = 00011111, dataout = 00101001
+# $@time:340, read :0, write :1, datain = 00101001, dataout = 00101001
+# $@time:350, read :0, write :1, datain = 00001100, dataout = 00101001
+# $@time:360, read :0, write :1, datain = 00001101, dataout = 00101001
+# $@time:370, read :0, write :1, datain = 00100001, dataout = 00101001
+# $@time:380, read :0, write :1, datain = 00101010, dataout = 00101001
+# $@time:390, read :0, write :1, datain = 00010000, dataout = 00101001
+# $@time:400, read :0, write :1, datain = 00010110, dataout = 00101001
+# $@time:410, read :0, write :1, datain = 00011110, dataout = 00101001
+# $@time:420, read :0, write :1, datain = 00000110, dataout = 00101001
+# $@time:430, read :1, write :0, datain = 00000110, dataout = 00001100
+# $@time:440, read :1, write :0, datain = 00000110, dataout = 00001101
+# $@time:450, read :1, write :0, datain = 00000110, dataout = 00010101
+# $@time:460, read :1, write :0, datain = 00000110, dataout = 00011111
+# $@time:465, read :1, write :1, datain = 00011110, dataout = 00011111
+# $@time:470, read :1, write :1, datain = 00011110, dataout = 00101001
+# $@time:475, read :1, write :0, datain = 00000110, dataout = 00101001
+# $@time:480, read :1, write :0, datain = 00000110, dataout = 00001100
+# $@time:490, read :1, write :0, datain = 00000110, dataout = 00001101
+# $@time:500, read :1, write :0, datain = 00000110, dataout = 00001010
+# $@time:510, read :1, write :0, datain = 00000110, dataout = 00001011
+# $@time:520, read :1, write :0, datain = 00000110, dataout = 00010101
+# $@time:530, read :1, write :0, datain = 00000110, dataout = 00011111
+# $@time:540, read :1, write :0, datain = 00000110, dataout = 00101001
+# $@time:550, read :1, write :0, datain = 00000110, dataout = 00001100
+# $@time:560, read :1, write :0, datain = 00000110, dataout = 00001101
+# $@time:570, read :1, write :0, datain = 00000110, dataout = 00100001
+# $@time:580, read :1, write :0, datain = 00000110, dataout = 00101010
+# $@time:590, read :1, write :0, datain = 00000110, dataout = 00011110
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo_tb.v(111)
+#    Time: 975 ps  Iteration: 0  Instance: /fifo_tb
+# 1
+# Break in Module fifo_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo_tb.v line 111
+quit -sim
+vsim work.fifo_tb
+# End time: 13:13:24 on Apr 01,2021, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 1
+# vsim work.fifo_tb 
+# Start time: 13:13:24 on Apr 01,2021
+# Loading work.fifo_tb
+# Loading work.fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run -all
+# $@time:  0, read :x, write :x, datain = xxxxxxxx, dataout = xxxxxxxx
+# $@time: 20, read :0, write :1, datain = 00000101, dataout = xxxxxxxx
+# $@time: 30, read :0, write :1, datain = 00001111, dataout = xxxxxxxx
+# $@time: 40, read :0, write :1, datain = 00010101, dataout = xxxxxxxx
+# $@time: 50, read :0, write :1, datain = 00011111, dataout = xxxxxxxx
+# $@time: 60, read :0, write :1, datain = 00101001, dataout = xxxxxxxx
+# $@time: 70, read :0, write :1, datain = 00001100, dataout = xxxxxxxx
+# $@time: 80, read :0, write :1, datain = 00001101, dataout = xxxxxxxx
+# $@time: 90, read :0, write :1, datain = 00100001, dataout = xxxxxxxx
+# $@time:100, read :0, write :1, datain = 00101010, dataout = xxxxxxxx
+# $@time:110, read :0, write :1, datain = 00010000, dataout = xxxxxxxx
+# $@time:120, read :1, write :1, datain = 00000010, dataout = 00000101
+# $@time:130, read :1, write :1, datain = 00000001, dataout = 00001111
+# $@time:140, read :1, write :1, datain = 00000010, dataout = 00010101
+# $@time:150, read :1, write :1, datain = 00000011, dataout = 00011111
+# $@time:160, read :1, write :1, datain = 00000100, dataout = 00101001
+# $@time:170, read :1, write :1, datain = 00010101, dataout = 00001100
+# $@time:180, read :1, write :1, datain = 00011111, dataout = 00001101
+# $@time:190, read :1, write :1, datain = 00101001, dataout = 00100001
+# $@time:200, read :1, write :1, datain = 00001100, dataout = 00101010
+# $@time:210, read :1, write :1, datain = 00001101, dataout = 00010000
+# $@time:220, read :1, write :1, datain = 00010101, dataout = 00000010
+# $@time:230, read :1, write :1, datain = 00011111, dataout = 00000001
+# $@time:240, read :1, write :1, datain = 00101001, dataout = 00000010
+# $@time:250, read :1, write :1, datain = 00001100, dataout = 00000011
+# $@time:260, read :1, write :1, datain = 00001101, dataout = 00000100
+# $@time:270, read :1, write :0, datain = 00001101, dataout = 00010101
+# $@time:280, read :1, write :0, datain = 00001101, dataout = 00011111
+# $@time:290, read :1, write :0, datain = 00001101, dataout = 00101001
+# $@time:300, read :0, write :1, datain = 00001010, dataout = 00101001
+# $@time:310, read :0, write :1, datain = 00001011, dataout = 00101001
+# $@time:320, read :0, write :1, datain = 00010101, dataout = 00101001
+# $@time:330, read :0, write :1, datain = 00011111, dataout = 00101001
+# $@time:340, read :0, write :1, datain = 00101001, dataout = 00101001
+# $@time:350, read :0, write :1, datain = 00001100, dataout = 00101001
+# $@time:360, read :0, write :1, datain = 00001101, dataout = 00101001
+# $@time:370, read :0, write :1, datain = 00100001, dataout = 00101001
+# $@time:380, read :0, write :1, datain = 00101010, dataout = 00101001
+# $@time:390, read :0, write :1, datain = 00010000, dataout = 00101001
+# $@time:400, read :0, write :1, datain = 00010110, dataout = 00101001
+# $@time:410, read :0, write :1, datain = 00011110, dataout = 00101001
+# $@time:420, read :0, write :1, datain = 00000110, dataout = 00101001
+# $@time:430, read :1, write :0, datain = 00000110, dataout = 00001100
+# $@time:440, read :1, write :0, datain = 00000110, dataout = 00001101
+# $@time:450, read :1, write :0, datain = 00000110, dataout = 00010101
+# $@time:460, read :1, write :0, datain = 00000110, dataout = 00011111
+# $@time:465, read :1, write :1, datain = 00011110, dataout = 00011111
+# $@time:470, read :1, write :1, datain = 00011110, dataout = 00101001
+# $@time:475, read :1, write :0, datain = 00000110, dataout = 00101001
+# $@time:480, read :1, write :0, datain = 00000110, dataout = 00001100
+# $@time:490, read :1, write :0, datain = 00000110, dataout = 00001101
+# $@time:500, read :1, write :0, datain = 00000110, dataout = 00001010
+# $@time:510, read :1, write :0, datain = 00000110, dataout = 00001011
+# $@time:520, read :1, write :0, datain = 00000110, dataout = 00010101
+# $@time:530, read :1, write :0, datain = 00000110, dataout = 00011111
+# $@time:540, read :1, write :0, datain = 00000110, dataout = 00101001
+# $@time:550, read :1, write :0, datain = 00000110, dataout = 00001100
+# $@time:560, read :1, write :0, datain = 00000110, dataout = 00001101
+# $@time:570, read :1, write :0, datain = 00000110, dataout = 00100001
+# $@time:580, read :1, write :0, datain = 00000110, dataout = 00101010
+# $@time:590, read :1, write :0, datain = 00000110, dataout = 00011110
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo_tb.v(111)
+#    Time: 975 ps  Iteration: 0  Instance: /fifo_tb
+# 1
+# Break in Module fifo_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo_tb.v line 111
+quit -sim
+# End time: 13:17:00 on Apr 01,2021, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 1

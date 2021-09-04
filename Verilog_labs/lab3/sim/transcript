@@ -1,0 +1,78 @@
+vsim work.mux4_1_tb
+# vsim work.mux4_1_tb 
+# Start time: 12:08:59 on Apr 01,2021
+# Loading work.mux4_1_tb
+# Loading work.mux4_1
+add wave -position insertpoint sim:/mux4_1_tb/*
+run -all
+# @time   0: select line: 00, data: 0000, output: 0
+# @time  10: select line: 00, data: 0001, output: 1
+# @time  20: select line: 00, data: 0010, output: 0
+# @time  30: select line: 00, data: 0011, output: 1
+# @time  40: select line: 00, data: 0100, output: 0
+# @time  50: select line: 00, data: 0101, output: 1
+# @time  60: select line: 00, data: 0110, output: 0
+# @time  70: select line: 00, data: 0111, output: 1
+# @time  80: select line: 00, data: 1000, output: 0
+# @time  90: select line: 00, data: 1001, output: 1
+# @time 100: select line: 00, data: 1010, output: 0
+# @time 110: select line: 00, data: 1011, output: 1
+# @time 120: select line: 00, data: 1100, output: 0
+# @time 130: select line: 00, data: 1101, output: 1
+# @time 140: select line: 00, data: 1110, output: 0
+# @time 150: select line: 00, data: 1111, output: 1
+# @time 160: select line: 01, data: 0000, output: 0
+# @time 170: select line: 01, data: 0001, output: 0
+# @time 180: select line: 01, data: 0010, output: 1
+# @time 190: select line: 01, data: 0011, output: 1
+# @time 200: select line: 01, data: 0100, output: 0
+# @time 210: select line: 01, data: 0101, output: 0
+# @time 220: select line: 01, data: 0110, output: 1
+# @time 230: select line: 01, data: 0111, output: 1
+# @time 240: select line: 01, data: 1000, output: 0
+# @time 250: select line: 01, data: 1001, output: 0
+# @time 260: select line: 01, data: 1010, output: 1
+# @time 270: select line: 01, data: 1011, output: 1
+# @time 280: select line: 01, data: 1100, output: 0
+# @time 290: select line: 01, data: 1101, output: 0
+# @time 300: select line: 01, data: 1110, output: 1
+# @time 310: select line: 01, data: 1111, output: 1
+# @time 320: select line: 10, data: 0000, output: 0
+# @time 330: select line: 10, data: 0001, output: 0
+# @time 340: select line: 10, data: 0010, output: 0
+# @time 350: select line: 10, data: 0011, output: 0
+# @time 360: select line: 10, data: 0100, output: 1
+# @time 370: select line: 10, data: 0101, output: 1
+# @time 380: select line: 10, data: 0110, output: 1
+# @time 390: select line: 10, data: 0111, output: 1
+# @time 400: select line: 10, data: 1000, output: 0
+# @time 410: select line: 10, data: 1001, output: 0
+# @time 420: select line: 10, data: 1010, output: 0
+# @time 430: select line: 10, data: 1011, output: 0
+# @time 440: select line: 10, data: 1100, output: 1
+# @time 450: select line: 10, data: 1101, output: 1
+# @time 460: select line: 10, data: 1110, output: 1
+# @time 470: select line: 10, data: 1111, output: 1
+# @time 480: select line: 11, data: 0000, output: 0
+# @time 490: select line: 11, data: 0001, output: 0
+# @time 500: select line: 11, data: 0010, output: 0
+# @time 510: select line: 11, data: 0011, output: 0
+# @time 520: select line: 11, data: 0100, output: 0
+# @time 530: select line: 11, data: 0101, output: 0
+# @time 540: select line: 11, data: 0110, output: 0
+# @time 550: select line: 11, data: 0111, output: 0
+# @time 560: select line: 11, data: 1000, output: 1
+# @time 570: select line: 11, data: 1001, output: 1
+# @time 580: select line: 11, data: 1010, output: 1
+# @time 590: select line: 11, data: 1011, output: 1
+# @time 600: select line: 11, data: 1100, output: 1
+# @time 610: select line: 11, data: 1101, output: 1
+# @time 620: select line: 11, data: 1110, output: 1
+# @time 630: select line: 11, data: 1111, output: 1
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab3/tb/mux4_1_tb.v(18)
+#    Time: 640 ps  Iteration: 0  Instance: /mux4_1_tb
+# 1
+# Break in Module mux4_1_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab3/tb/mux4_1_tb.v line 18
+quit -sim
+# End time: 12:15:20 on Apr 01,2021, Elapsed time: 0:06:21
+# Errors: 0, Warnings: 1

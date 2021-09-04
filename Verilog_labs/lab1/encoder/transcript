@@ -1,0 +1,28 @@
+vsim work.encoder_tb
+# vsim work.encoder_tb 
+# Start time: 12:56:56 on Mar 26,2021
+# Loading work.encoder_tb
+# Loading work.encoder
+add wave -r sim:/encoder_tb/*
+run -all
+# @ time:   0ps the input is 00000001 output is 000
+# @ time:  10ps the input is 00000000 output is 000
+# @ time:  20ps the input is 00000010 output is 001
+# @ time:  40ps the input is 00000100 output is 010
+# @ time:  60ps the input is 00001000 output is 011
+# @ time:  70ps the input is 00000110 output is 010
+# @ time:  80ps the input is 00010000 output is 100
+# @ time:  90ps the input is 00001000 output is 011
+# @ time: 100ps the input is 00100000 output is 101
+# @ time: 110ps the input is 00001010 output is 011
+# @ time: 120ps the input is 01000000 output is 110
+# @ time: 130ps the input is 00001100 output is 011
+# @ time: 140ps the input is 10000000 output is 111
+# @ time: 150ps the input is 00001110 output is 011
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder/encoder_tb.v(14)
+#    Time: 160 ps  Iteration: 0  Instance: /encoder_tb
+# 1
+# Break in Module encoder_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder/encoder_tb.v line 14
+quit -sim
+# End time: 13:00:50 on Mar 26,2021, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 1

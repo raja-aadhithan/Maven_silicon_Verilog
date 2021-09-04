@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu Jun 03 10:00:13 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : mass_task
+Top-level Entity Name : mass_task
+Family : MAX V
+Device : 5M40ZM64C4
+Timing Models : Final
+Total logic elements : 0 / 40 ( 0 % )
+Total pins : 3 / 30 ( 10 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

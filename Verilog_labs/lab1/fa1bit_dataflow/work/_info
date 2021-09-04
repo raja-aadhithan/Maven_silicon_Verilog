@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+vdataflow_fulladder
+!s110 1616585877
+!i10b 1
+!s100 UJa2eh[f>BFY?R=4OQEK02
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IGTK86Ji:NV?098ZF?DXOe0
+dC:/Users/Aadhithan/Documents/Verilog_labs/lab1/fa1bit_dataflow
+w1616585802
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab1/fa1bit_dataflow/dataflow_fulladder.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab1/fa1bit_dataflow/dataflow_fulladder.v
+!i122 0
+L0 1 3
+VDg1SIo80bB@j0V0VzS_@n1
+OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1616585877.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab1/fa1bit_dataflow/dataflow_fulladder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab1/fa1bit_dataflow/dataflow_fulladder.v|
+!i113 1
+o-work work
+tCvgOpt 0

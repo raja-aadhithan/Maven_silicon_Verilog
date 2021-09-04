@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+valu
+!s110 1617951662
+!i10b 1
+!s100 UeQFSOlikV6KW?d]XE^VG0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+InkYgC3jH:Yd2?Kj6AY1UU1
+Z1 dC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Lab2/rtl
+w1616655007
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Lab2/rtl/alu.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Lab2/rtl/alu.v
+!i122 0
+L0 24 55
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1617951662.000000
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Lab2/rtl/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Lab2/rtl/alu.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+valu_tb
+!s110 1617951663
+!i10b 1
+!s100 zSO5j_G[5?JzaWA1VJ?^c3
+R0
+IH;Rm>YY@Md1dbUQD0PTG<3
+R1
+w1616655578
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Lab2/tb/alu_tb.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Lab2/tb/alu_tb.v
+!i122 1
+L0 23 129
+R2
+R3
+r1
+!s85 0
+31
+!s108 1617951663.000000
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Lab2/tb/alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Lab2/tb/alu_tb.v|
+!i113 1
+R4
+R5

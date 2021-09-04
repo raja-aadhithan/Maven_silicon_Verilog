@@ -1,0 +1,17 @@
+# Compile of buffer.v was successful.
+# Compile of buffer_tb.v was successful.
+# Compile of buf.v was successful.
+# Compile of bufer.v was successful.
+# Compile of bufer_tb.v failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of bufer_tb.v failed with 2 errors.
+# Compile of bufer_tb.v was successful.
+vsim work.bufer_tb
+# vsim work.bufer_tb 
+# Start time: 11:24:38 on Mar 30,2021
+# Loading work.bufer_tb
+# Loading work.bufer
+add wave -r sim:/bufer_tb/*
+run -all
+# End time: 11:25:41 on Mar 30,2021, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 5

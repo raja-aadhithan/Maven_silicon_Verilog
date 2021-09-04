@@ -1,0 +1,27 @@
+vsim work.shift_tb
+# vsim work.shift_tb 
+# Start time: 13:25:31 on Apr 01,2021
+# Loading work.shift_tb
+# Loading work.shift
+add wave -position insertpoint sim:/shift_tb/*
+run -all
+# @time:  0, in data is 1, out data is x
+# @time: 20, in data is 0, out data is x
+# @time: 30, in data is 1, out data is 1
+# @time: 40, in data is 0, out data is 1
+# @time: 50, in data is 0, out data is 0
+# @time: 60, in data is 1, out data is 1
+# @time: 70, in data is 0, out data is 0
+# @time: 80, in data is 1, out data is 0
+# @time: 90, in data is 1, out data is 1
+# @time:100, in data is 0, out data is 0
+# @time:110, in data is 1, out data is 1
+# @time:120, in data is 0, out data is 1
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift_tb.v(37)
+#    Time: 130 ps  Iteration: 0  Instance: /shift_tb
+# 1
+# Break in Module shift_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift_tb.v line 37
+quit -sim
+# End time: 13:27:46 on Apr 01,2021, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 2
+# Closing project C:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift.mpf

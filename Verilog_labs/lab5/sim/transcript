@@ -1,0 +1,14 @@
+# Compile of ram_tb.v was successful.
+# Compile of ram.v was successful.
+vsim work.ram_tb
+# vsim work.ram_tb 
+# Start time: 21:14:53 on Mar 26,2021
+# Loading work.ram_tb
+# Loading work.ram
+run -all
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab5/tb/ram_tb.v(96)
+#    Time: 350 ps  Iteration: 0  Instance: /ram_tb
+# 1
+# Break in Module ram_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab5/tb/ram_tb.v line 96
+# End time: 21:15:17 on Mar 26,2021, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 3

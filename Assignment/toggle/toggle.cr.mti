@@ -1,0 +1,15 @@
+C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/toggle/toggle_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/toggle/toggle_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module toggle_tb
+
+Top level modules:
+	toggle_tb
+
+} {} {}} C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/toggle/toggle.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/toggle/toggle.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module toggle
+
+Top level modules:
+	toggle
+
+} {} {}}

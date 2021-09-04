@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Aadhithan/Documents/Verilog_labs/lab4/JK
+vtff
+!s110 1616735888
+!i10b 1
+!s100 YQ_@NG6ij>TS_7YWjz[m81
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+If9J4o5L:Vo4EW9`fR1QT63
+Z1 dC:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF
+w1616735798
+Z2 8C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff.v
+Z3 FC:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff.v
+!i122 0
+L0 1 6
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1616735888.000000
+Z6 !s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff.v|
+Z7 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vtff_tb
+!s110 1617260779
+!i10b 1
+!s100 eMmBfI3Nm9R91RN4MhBXR3
+R0
+Inf8UgV`2VgA60RSXERK=e3
+R1
+w1616738080
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff_tb.v
+!i122 9
+L0 1 22
+R4
+R5
+r1
+!s85 0
+31
+!s108 1617260779.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff_tb.v|
+!i113 1
+R8
+R9
+vtfflop
+!s110 1616737720
+!i10b 1
+!s100 k4OK:DQ8n9[_3IA[a[P2;0
+R0
+I6F?^78TcBAFBPzN;d7:Ie3
+R1
+w1616737706
+R2
+R3
+!i122 6
+L0 1 9
+R4
+R5
+r1
+!s85 0
+31
+!s108 1616737720.000000
+R6
+R7
+!i113 1
+R8
+R9

@@ -1,0 +1,22 @@
+{C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses1.v} {1 {vlog -work work -stats=none {C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module half_sub
+
+Top level modules:
+	half_sub
+
+} {} {}} {C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses2.v} {1 {vlog -work work -stats=none {C:\Users\Aadhithan\Documents\Code-sync\Maven_verilog\Assignment\New folder\asses2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module full_sub
+
+Top level modules:
+	full_sub
+
+} {} {}} {C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses_tb1.v} {1 {vlog -work work -stats=none {C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses_tb1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module sub_tb
+
+Top level modules:
+	sub_tb
+
+} {} {}}

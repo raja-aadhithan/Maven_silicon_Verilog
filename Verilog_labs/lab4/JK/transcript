@@ -1,0 +1,25 @@
+vsim work.jk_tb
+# vsim work.jk_tb 
+# Start time: 12:33:37 on Apr 01,2021
+# Loading work.jk_tb
+# Loading work.jkfflop
+add wave -position insertpoint sim:/jk_tb/*
+run -all
+# @time :   0: j is 0, k is 0, output is x-x
+# @time :  10: j is 0, k is 1, output is 0-1
+# @time :  20: j is 1, k is 0, output is 1-0
+# @time :  30: j is 1, k is 1, output is 0-1
+# @time :  40: j is 0, k is 0, output is 0-1
+# @time :  50: j is 0, k is 1, output is 0-1
+# @time :  60: j is 1, k is 0, output is 1-0
+# @time :  70: j is 1, k is 1, output is 0-1
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab4/JK/jk_tb.v(17)
+#    Time: 80 ps  Iteration: 0  Instance: /jk_tb
+# 1
+# Break in Module jk_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab4/JK/jk_tb.v line 17
+# Error opening C:/Users/Aadhithan/Documents/Verilog_labs/lab4/JK/jk_tb.v
+# Path name 'C:/Users/Aadhithan/Documents/Verilog_labs/lab4/JK/jk_tb.v' doesn't exist.
+
+quit -sim
+# End time: 12:35:51 on Apr 01,2021, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 1

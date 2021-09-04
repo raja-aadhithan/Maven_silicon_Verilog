@@ -1,0 +1,10 @@
+
+State Machine - Summary
+
+State Machine - state
+Name state.s75 state.s25 state.s50 state.s0 state.s100 
+state.s0 0 0 0 0 0 
+state.s100 0 0 0 1 1 
+state.s50 0 0 1 1 0 
+state.s25 0 1 0 1 0 
+state.s75 1 0 0 1 0 

@@ -1,0 +1,266 @@
+# Compile of aclk_areg.v was successful.
+# Compile of aclk_controller.v was successful.
+# Compile of aclk_counter.v was successful.
+# Compile of aclk_keyreg.v was successful.
+# Compile of aclk_lcd_display.v was successful.
+# Compile of aclk_lcd_driver.v was successful.
+# Compile of aclk_timegen.v was successful.
+# Compile of alarm_clock_top.v was successful.
+# Compile of tb_alarm_clock.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.tb_alarm_clock
+# vsim work.tb_alarm_clock 
+# Start time: 13:28:28 on Apr 08,2021
+# Loading work.tb_alarm_clock
+# Loading work.alarm_clock_top
+# Loading work.aclk_timegen
+# Loading work.aclk_counter
+# Loading work.aclk_areg
+# Loading work.aclk_keyreg
+# Loading work.aclk_controller
+# Loading work.aclk_lcd_display
+# Loading work.aclk_lcd_driver
+add wave -position insertpoint sim:/tb_alarm_clock/*
+run -all
+#                    0-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=0
+#                   13-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=1
+#                   19-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=1
+#                   27-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=2
+#                   35-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=3
+#                   41-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=0
+#                   43-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=3
+#                   47-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=1
+#                   53-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =2 >>> DISPLAY_LS_HR =3>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=1
+#                   61-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =3 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=3
+#                   69-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=0
+#                   75-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=3
+#                  525-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=4
+#                 1037-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=5
+#                 1549-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=6
+#                 2061-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=7
+#                 2573-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=8
+#                 3085-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=9
+#                 3597-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=0
+#                 4109-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=1
+#                 4621-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=2
+#                 5133-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=3
+#                 5645-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=4
+#                 6157-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=5
+#                 6669-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=6
+#                 7181-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=7
+#                 7693-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=8
+#                 8205-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=9
+#                 8717-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=0
+#                 9229-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=1
+#                 9741-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=2
+#                10253-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=3
+#                10765-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=4
+#                11277-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=5
+#                11789-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=6
+#                12301-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=7
+#                12813-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=8
+#                13325-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=9
+#                13837-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=0
+#                14349-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=1
+#                14861-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=2
+#                15373-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=3
+#                15885-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=4
+#                16397-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=5
+#                16909-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=6
+#                17421-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=7
+#                17933-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=8
+#                18445-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=9
+#                18957-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=0
+#                19469-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=1
+#                19981-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=2
+#                20493-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=3
+#                21005-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=4
+#                21517-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=5
+#                22029-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=6
+#                22541-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=7
+#                23053-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=8
+#                23565-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=9
+#                24077-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/tb/tb_alarm_clock.v(134)
+#    Time: 24170 ps  Iteration: 1  Instance: /tb_alarm_clock
+# 1
+# Break in Module tb_alarm_clock at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/tb/tb_alarm_clock.v line 134
+quit-sim
+# invalid command name "quit-sim"
+quit -sim
+# End time: 13:33:41 on Apr 08,2021, Elapsed time: 0:05:13
+# Errors: 0, Warnings: 7
+vsim work.tb_alarm_clock
+# vsim work.tb_alarm_clock 
+# Start time: 13:34:04 on Apr 08,2021
+# Loading work.tb_alarm_clock
+# Loading work.alarm_clock_top
+# Loading work.aclk_timegen
+# Loading work.aclk_counter
+# Loading work.aclk_areg
+# Loading work.aclk_keyreg
+# Loading work.aclk_controller
+# Loading work.aclk_lcd_display
+# Loading work.aclk_lcd_driver
+add wave -r sim:/tb_alarm_clock/*
+run -all
+#                    0-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=0
+#                   13-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=1
+#                   19-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=1
+#                   27-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=2
+#                   35-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=3
+#                   41-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=0
+#                   43-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=3
+#                   47-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=1
+#                   53-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =2 >>> DISPLAY_LS_HR =3>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=1
+#                   61-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =3 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=3
+#                   69-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=0
+#                   75-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=3
+#                  525-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=4
+#                 1037-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=5
+#                 1549-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=6
+#                 2061-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=7
+#                 2573-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=8
+#                 3085-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=9
+#                 3597-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=0
+#                 4109-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=1
+#                 4621-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=2
+#                 5133-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=3
+#                 5645-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=4
+#                 6157-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=5
+#                 6669-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=6
+#                 7181-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=7
+#                 7693-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=8
+#                 8205-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=9
+#                 8717-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=0
+#                 9229-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=1
+#                 9741-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=2
+#                10253-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=3
+#                10765-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=4
+#                11277-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=5
+#                11789-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=6
+#                12301-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=7
+#                12813-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=8
+#                13325-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=9
+#                13837-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=0
+#                14349-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=1
+#                14861-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=2
+#                15373-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=3
+#                15885-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=4
+#                16397-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=5
+#                16909-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=6
+#                17421-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=7
+#                17933-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=8
+#                18445-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=9
+#                18957-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=0
+#                19469-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=1
+#                19981-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=2
+#                20493-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=3
+#                21005-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=4
+#                21517-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=5
+#                22029-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=6
+#                22541-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=7
+#                23053-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=8
+#                23565-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=9
+#                24077-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/tb/tb_alarm_clock.v(134)
+#    Time: 24170 ps  Iteration: 1  Instance: /tb_alarm_clock
+# 1
+# Break in Module tb_alarm_clock at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/tb/tb_alarm_clock.v line 134
+# Compile of aclk_areg.v was successful.
+# Compile of aclk_controller.v was successful.
+# Compile of aclk_counter.v was successful.
+# Compile of aclk_keyreg.v was successful.
+# Compile of aclk_lcd_display.v was successful.
+# Compile of aclk_lcd_driver.v was successful.
+# Compile of aclk_timegen.v was successful.
+# Compile of alarm_clock_top.v was successful.
+# Compile of tb_alarm_clock.v was successful.
+# 9 compiles, 0 failed with no errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/Alarm_clock.mpf).  File can not be renamed.
+vsim work.tb_alarm_clock
+# End time: 13:41:46 on Apr 08,2021, Elapsed time: 0:07:42
+# Errors: 1, Warnings: 2
+# vsim work.tb_alarm_clock 
+# Start time: 13:41:46 on Apr 08,2021
+# Loading work.tb_alarm_clock
+# Loading work.alarm_clock_top
+# Loading work.aclk_timegen
+# Loading work.aclk_counter
+# Loading work.aclk_areg
+# Loading work.aclk_keyreg
+# Loading work.aclk_controller
+# Loading work.aclk_lcd_display
+# Loading work.aclk_lcd_driver
+add wave -r sim:/tb_alarm_clock/*
+run -all
+#                    0-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=0
+#                   13-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=1
+#                   19-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=1
+#                   27-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=2
+#                   35-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=3
+#                   41-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =0 >>> DISPLAY_LS_HR =0>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=0
+#                   43-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=3
+#                   47-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=1
+#                   53-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =2 >>> DISPLAY_LS_HR =3>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=1
+#                   61-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =3 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=3
+#                   69-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=0
+#                   75-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=3
+#                  525-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=4
+#                 1037-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=5
+#                 1549-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=6
+#                 2061-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=7
+#                 2573-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=8
+#                 3085-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =2>>> DISPLAY_LS_MIN=9
+#                 3597-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=0
+#                 4109-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=1
+#                 4621-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=2
+#                 5133-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=3
+#                 5645-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=4
+#                 6157-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=5
+#                 6669-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=6
+#                 7181-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=7
+#                 7693-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=8
+#                 8205-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =3>>> DISPLAY_LS_MIN=9
+#                 8717-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=0
+#                 9229-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=1
+#                 9741-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=2
+#                10253-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=3
+#                10765-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=4
+#                11277-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=5
+#                11789-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=6
+#                12301-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=7
+#                12813-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=8
+#                13325-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =4>>> DISPLAY_LS_MIN=9
+#                13837-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=0
+#                14349-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=1
+#                14861-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=2
+#                15373-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=3
+#                15885-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=4
+#                16397-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=5
+#                16909-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=6
+#                17421-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=7
+#                17933-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=8
+#                18445-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =1>>> DISPLAY_MS_MIN =5>>> DISPLAY_LS_MIN=9
+#                18957-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=0
+#                19469-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=1
+#                19981-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=2
+#                20493-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=3
+#                21005-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=4
+#                21517-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=5
+#                22029-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=6
+#                22541-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=7
+#                23053-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=8
+#                23565-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =0>>> DISPLAY_LS_MIN=9
+#                24077-ns	 MAVEN SILICON : 	DISPLAY_MS_HR =1 >>> DISPLAY_LS_HR =2>>> DISPLAY_MS_MIN =1>>> DISPLAY_LS_MIN=0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/tb/tb_alarm_clock.v(134)
+#    Time: 24170 ps  Iteration: 1  Instance: /tb_alarm_clock
+# 1
+# Break in Module tb_alarm_clock at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/tb/tb_alarm_clock.v line 134
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/Alarm_clock.mpf).  File can not be renamed.
+# End time: 13:43:58 on Apr 08,2021, Elapsed time: 0:02:12
+# Errors: 1, Warnings: 1

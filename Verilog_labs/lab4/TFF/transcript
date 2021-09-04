@@ -1,0 +1,28 @@
+# Compile of tff_tb.v was successful.
+vsim work.tff_tb
+# vsim work.tff_tb 
+# Start time: 12:36:30 on Apr 01,2021
+# Loading work.tff_tb
+# Loading work.tfflop
+add wave -position insertpoint sim:/tff_tb/*
+run -all
+# @time =   0: T is x and outputs are 0 - 1
+# @time =   5: T is 0 and outputs are 0 - 1
+# @time =  15: T is 1 and outputs are 0 - 1
+# @time =  20: T is 1 and outputs are 1 - 0
+# @time =  25: T is 0 and outputs are 1 - 0
+# @time =  35: T is 1 and outputs are 1 - 0
+# @time =  40: T is 1 and outputs are 0 - 1
+# @time =  45: T is 0 and outputs are 0 - 1
+# @time =  55: T is 1 and outputs are 0 - 1
+# @time =  60: T is 1 and outputs are 1 - 0
+# @time =  65: T is 0 and outputs are 1 - 0
+# @time =  75: T is 1 and outputs are 1 - 0
+# @time =  80: T is 1 and outputs are 0 - 1
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff_tb.v(20)
+#    Time: 85 ps  Iteration: 0  Instance: /tff_tb
+# 1
+# Break in Module tff_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff_tb.v line 20
+quit -sim
+# End time: 12:39:11 on Apr 01,2021, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 2

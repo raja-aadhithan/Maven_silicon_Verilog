@@ -1,0 +1,15 @@
+C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clk_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clk_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module clk_tb
+
+Top level modules:
+	clk_tb
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clockbuf.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock/clockbuf.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module clockbuf
+
+Top level modules:
+	clockbuf
+
+} {} {}}

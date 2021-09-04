@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Aadhithan/Documents/Verilog_labs/lab5/sim
+vfifo
+!s110 1616774336
+!i10b 1
+!s100 QA3F7NLX5]T@^kOEE]6kN1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJC6^`<H@<NXobe8d02D4E1
+Z1 dC:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO
+w1616774327
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo.v
+!i122 41
+L0 1 40
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1616774336.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vfifo_tb
+!s110 1616770358
+!i10b 1
+!s100 0hgDGlWd8l;hI=:hB@TEb2
+R0
+I]IIOZFCI7`n`NS?IKWod?2
+R1
+w1616769466
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo_tb.v
+!i122 33
+L0 1 113
+R2
+R3
+r1
+!s85 0
+31
+!s108 1616770358.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab5/FIFO/fifo_tb.v|
+!i113 1
+R4
+R5

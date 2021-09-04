@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+vencoder
+!s110 1616596633
+!i10b 1
+!s100 fL=h9J]SCHC:9WAAiomAI3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IoZdbGoOTEdgJK`W[bZ?N01
+Z1 dC:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder
+w1616596274
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder/encoder.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder/encoder.v
+!i122 0
+L0 1 17
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1616596632.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder/encoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder/encoder.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vencoder_tb
+!s110 1616650188
+!i10b 1
+!s100 6MW<NUaO`CZ0B5W06m]771
+R0
+ISOUY0]VAFT<oZfP4C=TOz0
+R1
+w1616650114
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder/encoder_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder/encoder_tb.v
+!i122 13
+L0 1 19
+R2
+R3
+r1
+!s85 0
+31
+!s108 1616650188.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder/encoder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder/encoder_tb.v|
+!i113 1
+R4
+R5

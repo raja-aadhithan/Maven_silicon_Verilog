@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Aadhithan/Documents/Verilog_labs/lab1/encoder
+vmux4_tb
+!s110 1616598772
+!i10b 1
+!s100 [D_mc37MbXBjldimU?4EC1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ibm<`]o2OdhAAKlgl_M1h@1
+Z1 dC:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder
+w1616598516
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/muv_dec_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/muv_dec_tb.v
+!i122 8
+L0 1 18
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1616598772.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/muv_dec_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/muv_dec_tb.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vmux_dec
+!s110 1616599893
+!i10b 1
+!s100 R91AA0PJlED9dAHTYf>[E0
+R0
+IkNNNUBU3QHaiFKf@`E6dW0
+R1
+w1616599884
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/mux_dec.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/mux_dec.v
+!i122 11
+L0 1 17
+R2
+R3
+r1
+!s85 0
+31
+!s108 1616599893.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/mux_dec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/mux_dec.v|
+!i113 1
+R4
+R5

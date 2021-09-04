@@ -1,0 +1,382 @@
+Synthesis report
+Thu Mar 25 12:33:52 2021
+Quartus Prime Version 20.4.0 Build 72 12/14/2020 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Synthesis Summary
+  2. Synthesis Settings
+  3. Synthesis Source Files Read
+  4. Synthesis Partition Summary
+  5. Parameter Settings for Top-Level Entity
+  6. Partition "root_partition" Resource Utilization by Entity
+  7. General Register Statistics for Partition "root_partition"
+  8. Multiplexer Restructuring Statistics (Restructuring Performed)
+  9. Multiplier Implementation Report
+ 10. Parameter Settings for Inferred Entity Instance: div_0_rtl_0
+ 11. Post-Synthesis Netlist Statistics for Partition "root_partition"
+ 12. Synthesis Resource Usage Summary for Partition "root_partition"
+ 13. Synthesis DSP Block Usage Summary for Partition "root_partition"
+ 14. Synthesis Messages
+
+
+
++---------------------------------------------------------------+
+; Synthesis Summary                                             ;
++-----------------------+---------------------------------------+
+; Synthesis Status      ; Successful - Thu Mar 25 12:33:51 2021 ;
+; Revision Name         ; alu                                   ;
+; Top-level Entity Name ; alu                                   ;
+; Family                ; Cyclone 10 GX                         ;
++-----------------------+---------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Synthesis Settings                                                                                                        ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 10CX220YF780I5G    ;                    ;
+; Top-level entity name                                                           ; alu                ; alu                ;
+; Family name                                                                     ; Cyclone 10 GX      ; Cyclone 10 GX      ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Design Assistant include IP blocks                                              ; Off                ; Off                ;
+; High fanout net threshold for RAM inference                                     ; 15                 ; 15                 ;
+; Design Assistant limit on reported violations per rule                          ; 500                ; 500                ;
+; Optimization Mode                                                               ; Balanced           ; Balanced           ;
+; Allow Register Merging                                                          ; On                 ; On                 ;
+; Allow Register Duplication                                                      ; On                 ; On                 ;
+; Allow Register Retiming                                                         ; On                 ; On                 ;
+; Allow RAM Retiming                                                              ; Off                ; Off                ;
+; Allow DSP Retiming                                                              ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Auto               ; Auto               ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Number of Protected Registers Reported in Synthesis Report                      ; 100                ; 100                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
+; Disable DSP Negate Inferencing                                                  ; Off                ; Off                ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Parameter Settings to ASCII                                              ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Source Assignments to ASCII                                              ; On                 ; On                 ;
+; Report Resource Utilization by Entity to ASCII                                  ; On                 ; On                 ;
+; Size of the Latch Report                                                        ; 100                ; 100                ;
+; Enable State Machines Inference                                                 ; On                 ; On                 ;
+; Enable formal verification support during compilation                           ; Off                ; Off                ;
+; Size of the PR Initial Conditions Report                                        ; 100                ; 100                ;
+; Number of Registers with Ignored Power-Up Settings Reported in Synthesis Report ; 500                ; 500                ;
+; Report PR Initial Values as Errors                                              ; Off                ; Off                ;
+; Fractal Synthesis                                                               ; Off                ; Off                ;
+; Synthesis Available Resource Multiplier                                         ; 1                  ; 1                  ;
+; Message Level for Unconnected Output Ports                                      ; Warning            ; Warning            ;
+; Pack Barrelshifters into Carry Chains for Better Area                           ; Auto               ; Auto               ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Synthesis Source Files Read                                                                                                                                                                                                                                                     ;
++--------------------------------------------------------------------------------------------------+------------------------------+--------------------------------------------------------------------------------------------------+---------+----------------------------------+
+; File Name with User-Entered Path                                                                 ; File Type                    ; File Name with Absolute Path                                                                     ; Library ; MD5                              ;
++--------------------------------------------------------------------------------------------------+------------------------------+--------------------------------------------------------------------------------------------------+---------+----------------------------------+
+; ../rtl/alu.v                                                                                     ; User Verilog HDL File        ; C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v                                         ;         ; 7d4b2283f0f88076bb38f25db880ec6a ;
+; c:/intelfpga_pro/20.4/quartus/libraries/megafunctions/lpm_divide.tdf                             ; Megafunction                 ; c:/intelfpga_pro/20.4/quartus/libraries/megafunctions/lpm_divide.tdf                             ; work    ;                                  ;
+; abs_divider.inc                                                                                  ; Auto-Found AHDL File         ; c:/intelfpga_pro/20.4/quartus/libraries/megafunctions/abs_divider.inc                            ;         ;                                  ;
+; sign_div_unsign.inc                                                                              ; Auto-Found AHDL File         ; c:/intelfpga_pro/20.4/quartus/libraries/megafunctions/sign_div_unsign.inc                        ;         ;                                  ;
+; aglobal204.inc                                                                                   ; Auto-Found AHDL File         ; c:/intelfpga_pro/20.4/quartus/libraries/megafunctions/aglobal204.inc                             ;         ;                                  ;
+; cbx.lst                                                                                          ; Auto-Found Unspecified File  ; c:/intelfpga_pro/20.4/quartus/libraries/megafunctions/cbx.lst                                    ;         ;                                  ;
+; C:/Users/Aadhithan/Documents/Verilog_labs/lab2/sim/tmp-clearbox/alu/2168/alt_u_div_e4f.tdf       ; Auto-Generated Megafunction  ; C:/Users/Aadhithan/Documents/Verilog_labs/lab2/sim/tmp-clearbox/alu/2168/alt_u_div_e4f.tdf       ;         ;                                  ;
+; C:/Users/Aadhithan/Documents/Verilog_labs/lab2/sim/tmp-clearbox/alu/2168/lpm_divide_quh.tdf      ; Auto-Generated Megafunction  ; C:/Users/Aadhithan/Documents/Verilog_labs/lab2/sim/tmp-clearbox/alu/2168/lpm_divide_quh.tdf      ;         ;                                  ;
+; C:/Users/Aadhithan/Documents/Verilog_labs/lab2/sim/tmp-clearbox/alu/2168/sign_div_unsign_fkh.tdf ; Auto-Generated Megafunction  ; C:/Users/Aadhithan/Documents/Verilog_labs/lab2/sim/tmp-clearbox/alu/2168/sign_div_unsign_fkh.tdf ;         ;                                  ;
++--------------------------------------------------------------------------------------------------+------------------------------+--------------------------------------------------------------------------------------------------+---------+----------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Synthesis Partition Summary                                                                ;
++----------------+----------------+---------+--------------+-------+-------------------------+
+; Partition Name ; Hierarchy Path ; Type    ; Preservation ; Empty ; Partition Database File ;
++----------------+----------------+---------+--------------+-------+-------------------------+
+; root_partition ; |              ; Default ;              ;       ;                         ;
++----------------+----------------+---------+--------------+-------+-------------------------+
+
+
++------------------------------------------+
+; Parameter Settings for Top-Level Entity  ;
++----------------+-------+-----------------+
+; Parameter Name ; Value ; Type            ;
++----------------+-------+-----------------+
+; ADD            ; 0000  ; Unsigned Binary ;
+; INC            ; 0001  ; Unsigned Binary ;
+; SUB            ; 0010  ; Unsigned Binary ;
+; DEC            ; 0011  ; Unsigned Binary ;
+; MUL            ; 0100  ; Unsigned Binary ;
+; DIV            ; 0101  ; Unsigned Binary ;
+; SHL            ; 0110  ; Unsigned Binary ;
+; SHR            ; 0111  ; Unsigned Binary ;
+; AND            ; 1000  ; Unsigned Binary ;
+; OR             ; 1001  ; Unsigned Binary ;
+; INV            ; 1010  ; Unsigned Binary ;
+; NAND           ; 1011  ; Unsigned Binary ;
+; NOR            ; 1100  ; Unsigned Binary ;
+; XOR            ; 1101  ; Unsigned Binary ;
+; XNOR           ; 1110  ; Unsigned Binary ;
+; BUF            ; 1111  ; Unsigned Binary ;
++----------------+-------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition "root_partition" Resource Utilization by Entity                                                                                                                                                                      ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------+--------------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; IOPLLs ; Full Hierarchy Name                        ; Entity Name         ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------+--------------------------------------------+---------------------+--------------+
+; |                          ; 170 (97)            ; 0 (0)                     ; 0                 ; 1          ; 0    ; 0            ; 0 (0)  ; |                                          ; alu                 ; altera_work  ;
+;    |div_0_rtl_0|           ; 73 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; 0 (0)  ; div_0_rtl_0                                ; lpm_divide          ; work         ;
+;       |auto_generated|     ; 73 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; 0 (0)  ; div_0_rtl_0|auto_generated                 ; lpm_divide_quh      ; work         ;
+;          |divider|         ; 73 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; 0 (0)  ; div_0_rtl_0|auto_generated|divider         ; sign_div_unsign_fkh ; altera_work  ;
+;             |divider|      ; 73 (73)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; 0 (0)  ; div_0_rtl_0|auto_generated|divider|divider ; alt_u_div_e4f       ; altera_work  ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------+--------------------------------------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------------+
+; General Register Statistics for Partition "root_partition" ;
++----------------------------------------------+-------------+
+; Statistic                                    ; Value       ;
++----------------------------------------------+-------------+
+; Total registers                              ; 0           ;
+; Number of registers using Synchronous Clear  ; 0           ;
+; Number of registers using Synchronous Load   ; 0           ;
+; Number of registers using Asynchronous Clear ; 0           ;
+; Number of registers using Asynchronous Load  ; 0           ;
+; Number of registers using Clock Enable       ; 0           ;
+; Number of registers using Preset             ; 0           ;
++----------------------------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+-------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ; Restructuring Performed ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+-------------------------+
+; 6:1                ; 7 bits    ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; No         ; Mux_6                      ; Yes                     ;
+; 15:1               ; 6 bits    ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; No         ; Mux_14                     ; Yes                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+-------------------------+
+
+
++------------------------------------+
+; Multiplier Implementation Report   ;
++-----------------+--------+---------+
+; Multiplier Name ; Target ; Reason  ;
++-----------------+--------+---------+
+; mult_0          ; dsp    ; default ;
++-----------------+--------+---------+
+
+
++--------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: div_0_rtl_0 ;
++------------------------+----------------+--------------------+
+; Parameter Name         ; Value          ; Type               ;
++------------------------+----------------+--------------------+
+; LPM_WIDTHN             ; 8              ; Untyped            ;
+; LPM_WIDTHD             ; 8              ; Untyped            ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped            ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped            ;
+; LPM_PIPELINE           ; 0              ; Untyped            ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped            ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped            ;
+; CBXI_PARAMETER         ; lpm_divide_quh ; Untyped            ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped            ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped            ;
+; AUTO_CARRY_CHAINS      ; ON             ; Untyped            ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; Untyped            ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE       ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; Untyped            ;
++------------------------+----------------+--------------------+
+
+
++------------------------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Partition "root_partition" ;
++------------------------+-----------------------------------------+
+; Type                   ; Count                                   ;
++------------------------+-----------------------------------------+
+; boundary_port          ; 37                                      ;
+; cyclone10gx_io_obuf    ; 16                                      ;
+; cyclone10gx_lcell_comb ; 170                                     ;
+;     arith              ; 67                                      ;
+;         0 data inputs  ; 13                                      ;
+;         1 data inputs  ; 16                                      ;
+;         2 data inputs  ; 13                                      ;
+;         4 data inputs  ; 1                                       ;
+;         5 data inputs  ; 24                                      ;
+;     extend             ; 9                                       ;
+;         7 data inputs  ; 9                                       ;
+;     normal             ; 85                                      ;
+;         2 data inputs  ; 6                                       ;
+;         3 data inputs  ; 16                                      ;
+;         4 data inputs  ; 30                                      ;
+;         5 data inputs  ; 17                                      ;
+;         6 data inputs  ; 16                                      ;
+;     shared             ; 9                                       ;
+;         0 data inputs  ; 1                                       ;
+;         2 data inputs  ; 8                                       ;
+; cyclone10gx_mac        ; 1                                       ;
+;                        ;                                         ;
+; Number of carry chains ; 9                                       ;
+; Max carry chain length ; 10                                      ;
+;                        ;                                         ;
+; Max LUT depth          ; 13.50                                   ;
+; Average LUT depth      ; 7.03                                    ;
++------------------------+-----------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Synthesis Resource Usage Summary for Partition "root_partition" ;
++---------------------------------------------+-------------------+
+; Resource                                    ; Usage             ;
++---------------------------------------------+-------------------+
+; Estimate of Logic utilization (ALMs needed) ; 98                ;
+;                                             ;                   ;
+; Combinational ALUT usage for logic          ; 170               ;
+;     -- 7 input functions                    ; 9                 ;
+;     -- 6 input functions                    ; 16                ;
+;     -- 5 input functions                    ; 41                ;
+;     -- 4 input functions                    ; 31                ;
+;     -- <=3 input functions                  ; 73                ;
+;                                             ;                   ;
+; Dedicated logic registers                   ; 0                 ;
+;                                             ;                   ;
+; I/O pins                                    ; 37                ;
+;                                             ;                   ;
+; Total DSP Blocks                            ; 1                 ;
+;     -- [A] Total Fixed Point DSP Blocks     ; 1                 ;
+;     -- [B] Total Floating Point DSP Blocks  ; 0                 ;
+;                                             ;                   ;
+; Maximum fan-out node                        ; command_in[0]     ;
+; Maximum fan-out                             ; 36                ;
+; Total fan-out                               ; 737               ;
+; Average fan-out                             ; 3.29              ;
++---------------------------------------------+-------------------+
+
+
++------------------------------------------------------------------+
+; Synthesis DSP Block Usage Summary for Partition "root_partition" ;
++---------------------------------+--------------------------------+
+; Statistic                       ; Number Used                    ;
++---------------------------------+--------------------------------+
+; Two Independent 18x18           ; 1                              ;
+; Total number of DSP blocks      ; 1                              ;
+;                                 ;                                ;
+; Fixed Point Unsigned Multiplier ; 1                              ;
++---------------------------------+--------------------------------+
+Note: DSP block merging and most register packing occurs during the fitter.
+
+
++--------------------+
+; Synthesis Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Synthesis
+    Info: Version 20.4.0 Build 72 12/14/2020 SC Pro Edition
+    Info: Processing started: Thu Mar 25 12:33:43 2021
+    Info: System process ID: 2168
+Info: Command: quartus_syn --read_settings_files=on --write_settings_files=off alu -c alu
+Info: qis_default_flow_script.tcl version: #2
+Info: Initializing Synthesis...
+Info: Project = "alu"
+Info: Revision = "alu"
+Info: Analyzing source files
+Info: Elaborating from top-level entity "alu"
+Warning (13475): Verilog HDL Always Construct warning at alu.v(55): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 55
+Warning (13475): Verilog HDL Always Construct warning at alu.v(56): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 56
+Warning (13475): Verilog HDL Always Construct warning at alu.v(57): variable "b" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 57
+Warning (13475): Verilog HDL Always Construct warning at alu.v(58): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 58
+Warning (13469): Verilog HDL assignment warning at alu.v(58): truncated value with size 32 to match size of target (16) File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 58
+Warning (13475): Verilog HDL Always Construct warning at alu.v(59): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 59
+Warning (13475): Verilog HDL Always Construct warning at alu.v(60): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 60
+Warning (13475): Verilog HDL Always Construct warning at alu.v(61): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 61
+Warning (13475): Verilog HDL Always Construct warning at alu.v(62): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 62
+Warning (13475): Verilog HDL Always Construct warning at alu.v(63): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 63
+Warning (13475): Verilog HDL Always Construct warning at alu.v(64): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 64
+Warning (13475): Verilog HDL Always Construct warning at alu.v(65): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 65
+Warning (13475): Verilog HDL Always Construct warning at alu.v(66): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 66
+Warning (13475): Verilog HDL Always Construct warning at alu.v(67): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 67
+Warning (13475): Verilog HDL Always Construct warning at alu.v(68): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 68
+Warning (13475): Verilog HDL Always Construct warning at alu.v(69): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 69
+Warning (13475): Verilog HDL Always Construct warning at alu.v(70): variable "a" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Aadhithan/Documents/Verilog_labs/lab2/rtl/alu.v Line: 70
+Info: Found 1 design entities
+Info: There are 1 partitions after elaboration.
+Info: Creating instance-specific data models and dissolving soft partitions
+Info (18299): Expanding entity and wildcard assignments.
+Info (18300): Expanded entity and wildcard assignments. Elapsed time: 00:00:00
+Info: found pre-synthesis snapshots for 1 partition(s)
+Info: Synthesizing partition "root_partition"
+Info (278001): Inferred 1 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "div_0_rtl_0"
+Info (286030): Timing-Driven Synthesis is running
+Info (21057): Implemented 208 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 21 input pins
+    Info (21059): Implemented 16 output pins
+    Info (21061): Implemented 170 logic cells
+    Info (21062): Implemented 1 DSP elements
+Info: Successfully synthesized partition
+Info: Saving post-synthesis snapshots for 1 partition(s)
+Info: Quartus Prime Synthesis was successful. 0 errors, 17 warnings
+    Info: Peak virtual memory: 499 megabytes
+    Info: Processing ended: Thu Mar 25 12:33:52 2021
+    Info: Elapsed time: 00:00:09
+    Info: System process ID: 2168
+
+

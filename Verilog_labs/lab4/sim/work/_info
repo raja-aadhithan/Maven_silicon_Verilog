@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+vdff
+!s110 1616675155
+!i10b 1
+!s100 dKYeCZmm>2fbNLBco7[BF0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjIOm^k>TVM47e0P[`=Zd=2
+Z1 dC:/Users/Aadhithan/Documents/Verilog_labs/lab4/sim
+w1616675150
+Z2 8C:/Users/Aadhithan/Documents/Verilog_labs/lab4/rtl/dff.v
+Z3 FC:/Users/Aadhithan/Documents/Verilog_labs/lab4/rtl/dff.v
+!i122 0
+Z4 L0 1 9
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1616675154.000000
+Z7 !s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab4/rtl/dff.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab4/rtl/dff.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vdff_tb
+!s110 1617260124
+!i10b 1
+!s100 <:kln0`>RKP5n:mdLi0763
+R0
+IfBQm3`_3eZXYZa12cN8IF2
+R1
+w1616675521
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab4/tb/dff_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab4/tb/dff_tb.v
+!i122 3
+L0 1 57
+R5
+R6
+r1
+!s85 0
+31
+!s108 1617260124.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab4/tb/dff_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab4/tb/dff_tb.v|
+!i113 1
+R9
+R10
+vdfflop
+!s110 1617260123
+!i10b 1
+!s100 OIWXZeXlT_9iSMO73:9iG3
+R0
+IH91050EWdCk@8oFLFJMVo3
+R1
+w1616675404
+R2
+R3
+!i122 2
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1617260123.000000
+R7
+R8
+!i113 1
+R9
+R10

@@ -1,0 +1,8 @@
+set_global_assignment -name FAMILY "Cyclone 10 GX"
+set_global_assignment -name TOP_LEVEL_ENTITY stable
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:17:42  JUNE 23, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.0 Pro Edition"
+set_global_assignment -name VERILOG_FILE stable.v
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name DEVICE 10CX220YF780I5G

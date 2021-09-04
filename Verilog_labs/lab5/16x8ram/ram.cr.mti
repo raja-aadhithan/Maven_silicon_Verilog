@@ -1,0 +1,15 @@
+C:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module ram168_tb
+
+Top level modules:
+	ram168_tb
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module ram168
+
+Top level modules:
+	ram168
+
+} {} {}}

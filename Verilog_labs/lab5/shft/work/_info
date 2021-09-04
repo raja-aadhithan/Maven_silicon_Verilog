@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram
+vshift
+Z0 !s110 1616827221
+!i10b 1
+!s100 b8^RWVSjJ[_:9Th?`k2Hm3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IzS^PH>Sa5;jf?CaHz33bH0
+Z2 dC:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft
+w1616826890
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift.v
+!i122 5
+L0 1 10
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1616827220.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vshift_tb
+R0
+!i10b 1
+!s100 mP]HL7KY]60KWI@OOn0i_0
+R1
+IThN7zV_:62Z=G2YHS^1M^2
+R2
+w1616827211
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift_tb.v
+!i122 6
+L0 1 39
+R3
+R4
+r1
+!s85 0
+31
+!s108 1616827221.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab5/shft/shift_tb.v|
+!i113 1
+R5
+R6

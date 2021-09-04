@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+vrouter_sync
+!s110 1618923124
+!i10b 1
+!s100 S=S[PLUXI96CIoNZ4mUF>2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IeGI6<?6ikTP^[JG`hgdzX2
+Z1 dC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/sim/sync
+w1618922908
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_sync.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_sync.v
+!i122 13
+L0 1 96
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z4 !s108 1618923124.000000
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_sync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_sync.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vrouter_sync_tb
+!s110 1618923125
+!i10b 1
+!s100 WXd89UdaQ5nboEjj^lAIY0
+R0
+I<ccUQK;MT[hjb1XT<W0zk3
+R1
+w1618923114
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_sync_tb.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_sync_tb.v
+!i122 14
+L0 1 64
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_sync_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_sync_tb.v|
+!i113 1
+R5
+R6

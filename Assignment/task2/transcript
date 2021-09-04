@@ -1,0 +1,17 @@
+# Compile of vending.v was successful.
+# Compile of vending_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.vending_tb
+# vsim work.vending_tb 
+# Start time: 11:17:39 on Apr 30,2021
+# Loading work.vending_tb
+# Loading work.vending
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/vending_tb/*
+run -all
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task2/vending_tb.v(36)
+#    Time: 13095 ps  Iteration: 1  Instance: /vending_tb
+# 1
+# Break in Module vending_tb at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task2/vending_tb.v line 36
+# End time: 11:18:08 on Apr 30,2021, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2

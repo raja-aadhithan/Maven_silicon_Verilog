@@ -1,0 +1,6 @@
+|mass_task
+clk => q.CLK
+d => q.DATAIN
+y << <GND>
+
+

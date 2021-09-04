@@ -1,0 +1,27 @@
+# Compile of aram8x16.v was successful.
+vsim work.ram8x16_tb
+# vsim work.ram8x16_tb 
+# Start time: 10:45:20 on Apr 06,2021
+# Loading work.ram8x16_tb
+# Loading work.aram8x16
+add wave -position insertpoint sim:/ram8x16_tb/*
+run -all
+# @time:  0-wr:1,000,0000000000000001-rd:0,xxx,00000000xxxxxxxx
+# @time: 15-wr:1,001,0000000000000011-rd:0,xxx,00000000xxxxxxxx
+# @time: 30-wr:1,010,0000000000000101-rd:0,xxx,00000000xxxxxxxx
+# @time: 45-wr:1,011,0000000000000111-rd:0,xxx,00000000xxxxxxxx
+# @time: 60-wr:1,100,0000000000001001-rd:0,xxx,00000000xxxxxxxx
+# @time: 75-wr:1,101,0000000000001011-rd:0,xxx,00000000xxxxxxxx
+# @time: 90-wr:1,110,0000000000001101-rd:0,xxx,00000000xxxxxxxx
+# @time:105-wr:1,111,0000000000001111-rd:0,xxx,00000000xxxxxxxx
+# @time:120-wr:1,111,0000000000001111-rd:1,111,0000000000001111
+# @time:130-wr:1,010,0000000000101011-rd:1,101,0000000000001011
+# @time:140-wr:1,110,0000000000011111-rd:1,111,0000000000001111
+# @time:150-wr:1,100,0000000000101111-rd:1,001,0000000000000011
+# @time:160-wr:1,001,0000000001110010-rd:1,001,0000000001110010
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/ram8x168_tb.v(37)
+#    Time: 170 ps  Iteration: 0  Instance: /ram8x16_tb
+# 1
+# Break in Module ram8x16_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/ram8x168_tb.v line 37
+# End time: 10:47:31 on Apr 06,2021, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 3

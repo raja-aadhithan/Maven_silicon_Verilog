@@ -1,0 +1,32 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do router_fsm_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router {C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fsm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:21:29 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router" C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fsm.v 
+# -- Compiling module router_fsm
+# 
+# Top level modules:
+# 	router_fsm
+# End time: 15:21:30 on Jun 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.router_fsm
+# vsim work.router_fsm 
+# Start time: 15:22:12 on Jun 02,2021
+# Loading work.router_fsm
+add wave -r sim:/router_fsm/*
+run -all
+# End time: 15:23:03 on Jun 02,2021, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0

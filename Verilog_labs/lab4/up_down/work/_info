@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Aadhithan/Documents/Verilog_labs/lab1/buffer
+vcount4
+Z0 !s110 1617261945
+!i10b 1
+!s100 gdAcAHM:bJ8jBbe@7h2m]0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Inz3[9LhMm2<`kz?YB]9Ij0
+Z2 dC:/Users/Aadhithan/Documents/Verilog_labs/lab4/up_down
+w1616749481
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab4/up_down/up_down.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab4/up_down/up_down.v
+!i122 5
+L0 1 8
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z5 !s108 1617261945.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab4/up_down/up_down.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab4/up_down/up_down.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vcount_tb
+R0
+!i10b 1
+!s100 =g>Jf=]P[Zi1ZVFQ_F3co2
+R1
+I@e5LNaGO1aE9V^Dh`kE;13
+R2
+w1616749372
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab4/up_down/up_down_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab4/up_down/up_down_tb.v
+!i122 6
+L0 1 33
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab4/up_down/up_down_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab4/up_down/up_down_tb.v|
+!i113 1
+R6
+R7

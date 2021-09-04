@@ -1,0 +1,34 @@
+vsim work.coin_tb
+# vsim work.coin_tb 
+# Start time: 13:35:22 on Apr 01,2021
+# Loading work.coin_tb
+# Loading work.coin
+add wave -position insertpoint sim:/coin_tb/*
+run -all
+# @time:  0,input (ij) is x,x and output (xy) is 0,0
+# @time: 15,input (ij) is 0,1 and output (xy) is 0,0
+# @time: 25,input (ij) is 0,0 and output (xy) is 0,0
+# @time: 35,input (ij) is 1,1 and output (xy) is 0,0
+# @time: 45,input (ij) is 1,0 and output (xy) is 0,0
+# @time: 50,input (ij) is 1,0 and output (xy) is 1,0
+# @time: 55,input (ij) is 0,1 and output (xy) is 1,0
+# @time: 60,input (ij) is 0,1 and output (xy) is 0,0
+# @time: 65,input (ij) is 1,1 and output (xy) is 0,0
+# @time: 80,input (ij) is 1,1 and output (xy) is 1,1
+# @time: 85,input (ij) is 1,0 and output (xy) is 1,1
+# @time: 90,input (ij) is 1,0 and output (xy) is 0,0
+# @time: 95,input (ij) is 1,1 and output (xy) is 0,0
+# @time:105,input (ij) is 1,0 and output (xy) is 0,0
+# @time:110,input (ij) is 1,0 and output (xy) is 1,0
+# @time:115,input (ij) is 0,1 and output (xy) is 1,0
+# @time:120,input (ij) is 0,1 and output (xy) is 0,0
+# @time:125,input (ij) is 1,1 and output (xy) is 0,0
+# @time:140,input (ij) is 1,1 and output (xy) is 1,1
+# @time:145,input (ij) is 1,0 and output (xy) is 1,1
+# @time:150,input (ij) is 1,0 and output (xy) is 0,0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab6/coin/coin_tb.v(56)
+#    Time: 155 ps  Iteration: 0  Instance: /coin_tb
+# 1
+# Break in Module coin_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab6/coin/coin_tb.v line 56
+# End time: 13:37:13 on Apr 01,2021, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 1

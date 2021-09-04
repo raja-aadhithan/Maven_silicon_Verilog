@@ -1,0 +1,356 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+vcounter
+Z0 !s110 1625809576
+!i10b 1
+!s100 ]AQ8BCN;d:XXj]=zONl_53
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IO5@g0O9I0OabV:GP7Km532
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/User/Documents/Code-sync/Maven_verilog/Router
+Z4 w1625518371
+8C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_fifo.v
+FC:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_fifo.v
+!i122 72
+L0 80 10
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1625809576.000000
+!s107 C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_fifo.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vrouter_fifo
+Z9 !s110 1627623791
+!i10b 1
+!s100 232fSAegozK5oG_@ZIcdl2
+R1
+I:Kf_^2@2`8R6f?MADSRe@3
+R2
+R3
+w1627623267
+8C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_fifo.v
+FC:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_fifo.v
+!i122 109
+Z10 L0 1 82
+R5
+r1
+!s85 0
+31
+Z11 !s108 1627623791.000000
+!s107 C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_fifo.v|
+!i113 1
+R7
+R8
+vrouter_fifo_tb
+!s110 1626065597
+!i10b 1
+!s100 @:<zmEgWFncfScH_RO_]V2
+R1
+I]M<W?0_234B`T;JR]AcK[1
+R2
+R3
+w1626065565
+Z12 8C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_tb.v
+Z13 FC:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_tb.v
+!i122 96
+R10
+R5
+r1
+!s85 0
+31
+!s108 1626065597.000000
+Z14 !s107 C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_tb.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_tb.v|
+!i113 1
+R7
+R8
+vrouter_fsm
+R9
+!i10b 1
+!s100 ScTJ0G3e[<;UKM>ibQmJO0
+R1
+I`09O6gEZO>R@af_H;m3i91
+R2
+R3
+w1627623223
+8C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_fsm.v
+FC:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_fsm.v
+!i122 110
+L0 1 114
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_fsm.v|
+!i113 1
+R7
+R8
+vrouter_fsm_tb
+R0
+!i10b 1
+!s100 2T6Zc;DUMX_FD`bQdHeN:1
+R1
+IYPS0nSQYeiL`P81WVTi943
+R2
+R3
+R4
+8C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_fsm_tb.v
+FC:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_fsm_tb.v
+!i122 75
+L0 1 100
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_fsm_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_fsm_tb.v|
+!i113 1
+R7
+R8
+vrouter_reg
+Z16 !s110 1626065733
+!i10b 1
+!s100 cLa==iQcJ]752Z1nhSzMZ1
+R1
+IN<D4C]le:60CX_laRS2<K2
+R2
+R3
+w1626065438
+8C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_reg.v
+FC:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_reg.v
+!i122 99
+L0 1 87
+R5
+r1
+!s85 0
+31
+Z17 !s108 1626065733.000000
+!s107 C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_reg.v|
+!i113 1
+R7
+R8
+vrouter_reg_tb
+Z18 !s110 1625809577
+!i10b 1
+!s100 KXeEOlLSUWL;8;oJ94[=71
+R1
+I?cZbCohg;ZRChPcMAhl?l3
+R2
+R3
+R4
+8C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_reg_tb.v
+FC:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_reg_tb.v
+!i122 77
+L0 2 131
+R5
+r1
+!s85 0
+31
+Z19 !s108 1625809577.000000
+!s107 C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_reg_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_reg_tb.v|
+!i113 1
+R7
+R8
+vrouter_register
+R9
+!i10b 1
+!s100 OYWkmd<^eWDe6ej0SgB>j2
+R1
+IY_bD3Oc6==`hWDGe8LfeT3
+R2
+R3
+w1627623315
+8C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_register.v
+FC:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_register.v
+!i122 111
+L0 1 97
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_register.v|
+!i113 1
+R7
+R8
+vrouter_sync
+R9
+!i10b 1
+!s100 ];6b4^;4h;bfo96f`7b8:2
+R1
+ILFP?:BdbdZSTkaZhddSQ;2
+R2
+R3
+w1627623398
+8C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_sync.v
+FC:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_sync.v
+!i122 112
+L0 1 149
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_sync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_sync.v|
+!i113 1
+R7
+R8
+vrouter_sync_tb
+R18
+!i10b 1
+!s100 WXd89UdaQ5nboEjj^lAIY0
+R1
+In`<I[]1Ob9bB1Z^z>9EJK1
+R2
+R3
+R4
+8C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_sync_tb.v
+FC:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_sync_tb.v
+!i122 79
+L0 1 64
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_sync_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Maven_verilog/Router/router_sync_tb.v|
+!i113 1
+R7
+R8
+vrouter_top
+R9
+!i10b 1
+!s100 ]7DEi<5@0m^b?`@@keQZH0
+R1
+IaG<DkzBRFE?Eh?T?b7SSe2
+R2
+R3
+w1627623462
+8C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top.v
+FC:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top.v
+!i122 113
+L0 1 99
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top.v|
+!i113 1
+R7
+R8
+vrouter_top_gen
+Z20 !s110 1626065734
+!i10b 1
+!s100 E`iED0=15YW87z]O3U?n60
+R1
+I6DnUNeL2TJOeIJCl<oh3m2
+R2
+R3
+w1626065533
+8C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_gen.v
+FC:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_gen.v
+!i122 104
+L0 1 42
+R5
+r1
+!s85 0
+31
+!s108 1626065734.000000
+!s107 C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_gen.v|
+!i113 1
+R7
+R8
+vrouter_top_gen_tb
+R20
+!i10b 1
+!s100 8Wn0HVngTaW?5C]6TDY6^2
+R1
+I2FFf<c4[[D?nG<6L0JImX1
+R2
+R3
+w1626065657
+R12
+R13
+!i122 103
+L0 1 663
+R5
+r1
+!s85 0
+31
+R17
+R14
+R15
+!i113 1
+R7
+R8
+vrouter_top_tb
+!s110 1627623810
+!i10b 1
+!s100 :BHQa8RGIKneao@:_=K1B2
+R1
+I5o[2GhNS`z1]1cY2Zm[<h1
+R2
+R3
+w1627623653
+8C:/Users/User/Documents/Code-sync/Router 1x3/TB/router_tb.v
+FC:/Users/User/Documents/Code-sync/Router 1x3/TB/router_tb.v
+!i122 114
+L0 1 94
+R5
+r1
+!s85 0
+31
+!s108 1627623810.000000
+!s107 C:/Users/User/Documents/Code-sync/Router 1x3/TB/router_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Router 1x3/TB/router_tb.v|
+!i113 1
+R7
+R8
+vrouter_top_tb_16
+R16
+!i10b 1
+!s100 A?@Q_cNlZkA`4SSQg8TGo2
+R1
+If:FJWii_Q>QZ_@lEZkLk11
+R2
+R3
+R4
+8C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_tb_16.v
+FC:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_tb_16.v
+!i122 102
+L0 1 126
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_tb_16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Documents/Code-sync/Router 1x3/RTL/router_top_tb_16.v|
+!i113 1
+R7
+R8

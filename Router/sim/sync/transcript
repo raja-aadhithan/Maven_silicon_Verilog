@@ -1,0 +1,17 @@
+vsim work.router_sync_tb
+# vsim work.router_sync_tb 
+# Start time: 09:02:20 on Apr 30,2021
+# Loading work.router_sync_tb
+# Loading work.router_sync
+add wave -position insertpoint sim:/router_sync_tb/*
+run -all
+# @  0ns : q = x, vldout = x,x,x
+# @ 10ns : q = x, vldout = 0,1,1
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_sync_tb.v(62)
+#    Time: 4070 ps  Iteration: 0  Instance: /router_sync_tb
+# 1
+# Break in Module router_sync_tb at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_sync_tb.v line 62
+
+quit -sim
+# End time: 09:05:20 on Apr 30,2021, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 1

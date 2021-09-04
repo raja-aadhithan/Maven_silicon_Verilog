@@ -1,0 +1,10 @@
+
+State Machine - Summary
+
+State Machine - state
+Name state.st3 state.st2 state.st1 state.idle state.st4 
+state.idle 0 0 0 0 0 
+state.st1 0 0 1 1 0 
+state.st2 0 1 0 1 0 
+state.st3 1 0 0 1 0 
+state.st4 0 0 0 1 1 

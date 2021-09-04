@@ -1,0 +1,15 @@
+C:/Users/Aadhithan/Documents/Verilog_labs/lab3/encoder/encoder_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab3/encoder/encoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module encoder_tb
+
+Top level modules:
+	encoder_tb
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab3/encoder/encoder.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab3/encoder/encoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module encoder
+
+Top level modules:
+	encoder
+
+} {} {}}

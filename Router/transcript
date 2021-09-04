@@ -1,0 +1,12 @@
+# Compile of router_fifo.v was successful.
+# Compile of router_fsm.v was successful.
+# Compile of router_sync.v was successful.
+# Compile of router_top.v was successful.
+# 4 compiles, 4 failed with no errors.
+# Compile of router_fifo.v was successful.
+# Compile of router_fsm.v was successful.
+# Compile of router_register.v was successful.
+# Compile of router_sync.v was successful.
+# Compile of router_top.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of router_tb.v was successful.

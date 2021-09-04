@@ -1,0 +1,14 @@
+# Compile of router_reg.v was successful.
+vsim work.router_reg_tb
+# vsim work.router_reg_tb 
+# Start time: 09:05:55 on Apr 30,2021
+# Loading work.router_reg_tb
+# Loading work.router_reg
+add wave -position insertpoint sim:/router_reg_tb/*
+run -all
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_reg_tb.v(129)
+#    Time: 365 ps  Iteration: 1  Instance: /router_reg_tb
+# 1
+# Break in Module router_reg_tb at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_reg_tb.v line 129
+# End time: 09:10:47 on Apr 30,2021, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 2

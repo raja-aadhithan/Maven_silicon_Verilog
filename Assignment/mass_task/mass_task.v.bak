@@ -1,0 +1,8 @@
+module mass_task(input clk, d, output y);
+wire x;
+reg q;
+assign y =  q & x;
+always@(posedge clk) begin
+    q <= d;
+end
+endmodule

@@ -1,0 +1,17 @@
+module encoder_tb();
+reg [7:0] x;
+wire [2:0] y;
+integer i,j;
+encoder DUT(x,y);
+initial begin
+    for(i=0; i<8; i = i+1)
+    begin
+        x = 2**i;
+        #10;
+        x=2*j
+        #10;
+    end
+end
+initial $monitor("the input is %8b output is %3b",x,y);
+initial #200 $finish;
+endmodule

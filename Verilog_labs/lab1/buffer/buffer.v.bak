@@ -1,0 +1,8 @@
+module buffer(input enb, inout a,b);
+wire tempa,tempb;
+assign tempa = enb ? tempb : 1'bz;
+assign tempb = enb ? 1'bz : tempa;
+assign a = tempa;
+assign b = tempb;
+endmodule
+//incomplete

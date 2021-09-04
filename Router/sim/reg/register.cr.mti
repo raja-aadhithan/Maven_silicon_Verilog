@@ -1,0 +1,15 @@
+C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_reg.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module router_reg
+
+Top level modules:
+	router_reg
+
+} {} {}} C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_reg_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_reg_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module router_reg_tb
+
+Top level modules:
+	router_reg_tb
+
+} {} {}}

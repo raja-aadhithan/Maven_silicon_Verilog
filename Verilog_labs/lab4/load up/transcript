@@ -1,0 +1,54 @@
+vsim work.count_tb
+# vsim work.count_tb 
+# Start time: 12:39:50 on Apr 01,2021
+# Loading work.count_tb
+# Loading work.count4
+add wave -position insertpoint sim:/count_tb/*
+run -all
+# @time :   0 - for load = x output is xxxx
+# @time :  10 - for load = x output is 0000
+# @time :  15 - for load = 1 output is 0000
+# @time :  20 - for load = 1 output is 1101
+# @time :  30 - for load = 0 output is 1101
+# @time :  40 - for load = 0 output is 1110
+# @time :  50 - for load = 0 output is 1111
+# @time :  60 - for load = 0 output is 0000
+# @time :  70 - for load = 0 output is 0001
+# @time :  80 - for load = 0 output is 0000
+# @time :  90 - for load = 0 output is 0001
+# @time : 100 - for load = 0 output is 0010
+# @time : 110 - for load = 0 output is 0011
+# @time : 120 - for load = 0 output is 0100
+# @time : 130 - for load = 0 output is 0101
+# @time : 140 - for load = 0 output is 0110
+# @time : 150 - for load = 0 output is 0111
+# @time : 160 - for load = 0 output is 1000
+# @time : 170 - for load = 0 output is 1001
+# @time : 180 - for load = 0 output is 1010
+# @time : 190 - for load = 0 output is 1011
+# @time : 200 - for load = 0 output is 1100
+# @time : 210 - for load = 0 output is 1101
+# @time : 220 - for load = 0 output is 1110
+# @time : 230 - for load = 0 output is 1111
+# @time : 240 - for load = 0 output is 0000
+# @time : 250 - for load = 0 output is 0001
+# @time : 260 - for load = 0 output is 0010
+# @time : 270 - for load = 0 output is 0011
+# @time : 280 - for load = 0 output is 0100
+# @time : 290 - for load = 0 output is 0101
+# @time : 300 - for load = 0 output is 0110
+# @time : 310 - for load = 0 output is 0111
+# @time : 320 - for load = 0 output is 1000
+# @time : 330 - for load = 0 output is 1001
+# @time : 340 - for load = 0 output is 1010
+# @time : 350 - for load = 0 output is 1011
+# @time : 360 - for load = 0 output is 1100
+# @time : 370 - for load = 0 output is 1101
+# @time : 380 - for load = 0 output is 1110
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab4/load up/count_tb.v(24)
+#    Time: 385 ps  Iteration: 0  Instance: /count_tb
+# 1
+# Break in Module count_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab4/load up/count_tb.v line 24
+quit -sim
+# End time: 12:43:25 on Apr 01,2021, Elapsed time: 0:03:35
+# Errors: 0, Warnings: 1

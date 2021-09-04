@@ -1,0 +1,13 @@
+
+State Machine - Summary
+
+State Machine - dut1|state
+Name state.Check_Parity_Error state.Load_After_Full state.Load_Parity state.Fifo_Full_State state.Load_Data state.Wait_Till_Empty state.Load_First_Data state.Decode_Address 
+state.Decode_Address 0 0 0 0 0 0 0 0 
+state.Load_First_Data 0 0 0 0 0 0 1 1 
+state.Wait_Till_Empty 0 0 0 0 0 1 0 1 
+state.Load_Data 0 0 0 0 1 0 0 1 
+state.Fifo_Full_State 0 0 0 1 0 0 0 1 
+state.Load_Parity 0 0 1 0 0 0 0 1 
+state.Load_After_Full 0 1 0 0 0 0 0 1 
+state.Check_Parity_Error 1 0 0 0 0 0 0 1 

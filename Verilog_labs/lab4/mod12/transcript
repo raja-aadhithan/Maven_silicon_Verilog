@@ -1,0 +1,15 @@
+# Compile of countmod_tb.v was successful.
+vlog -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 12:53:07 on Apr 01,2021
+# vlog -reportprogress 300 -work work -refresh -force_refresh 
+# -- Refreshing module count4
+# End time: 12:53:07 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 12:53:07 on Apr 01,2021
+# vcom -reportprogress 300 -work work -refresh -force_refresh 
+# -- Skipping module count4
+# End time: 12:53:07 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

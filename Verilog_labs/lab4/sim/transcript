@@ -1,0 +1,39 @@
+# Compile of dff.v was successful.
+# Compile of dff_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.dff_tb
+# vsim work.dff_tb 
+# Start time: 12:25:35 on Apr 01,2021
+# Loading work.dff_tb
+# Loading work.dfflop
+add wave -position insertpoint sim:/dff_tb/*
+run -all
+# @time:   0ps the input: x, reset:x, output is x,x
+# @time:   5ps the input: x, reset:1, output is x,x
+# @time:  10ps the input: x, reset:1, output is 0,1
+# @time:  15ps the input: x, reset:0, output is 0,1
+# @time:  20ps the input: x, reset:0, output is x,x
+# @time:  25ps the input: 0, reset:0, output is x,x
+# @time:  30ps the input: 0, reset:0, output is 0,1
+# @time:  35ps the input: 1, reset:0, output is 0,1
+# @time:  40ps the input: 1, reset:0, output is 1,0
+# @time:  45ps the input: 0, reset:0, output is 1,0
+# @time:  50ps the input: 0, reset:0, output is 0,1
+# @time:  55ps the input: 1, reset:0, output is 0,1
+# @time:  60ps the input: 1, reset:0, output is 1,0
+# @time:  75ps the input: 1, reset:1, output is 1,0
+# @time:  80ps the input: 1, reset:1, output is 0,1
+# @time:  85ps the input: 1, reset:0, output is 0,1
+# @time:  90ps the input: 1, reset:0, output is 1,0
+# @time:  95ps the input: 0, reset:0, output is 1,0
+# @time: 100ps the input: 0, reset:0, output is 0,1
+# @time: 105ps the input: 1, reset:0, output is 0,1
+# @time: 110ps the input: 1, reset:0, output is 1,0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab4/tb/dff_tb.v(51)
+#    Time: 115 ps  Iteration: 0  Instance: /dff_tb
+# 1
+# Break in Module dff_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab4/tb/dff_tb.v line 51
+
+quit -sim
+# Break key hit
+# Closing project C:/Users/Aadhithan/Documents/Verilog_labs/lab4/sim/dflipflop.mpf

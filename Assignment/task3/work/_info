@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task2
+vloop
+Z0 !s110 1619701974
+!i10b 1
+!s100 hoMB`BHH^z?QL0k4YhT:f3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUh[5_z>AJiSC9I@Ekh5Q`2
+Z2 dC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3
+w1619701965
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop.v
+!i122 7
+L0 1 21
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1619701973.000000
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vloop_tb
+R0
+!i10b 1
+!s100 W9iA5nWQ`X:dL;[glbhmF0
+R1
+IGC^NY62VhNGc8K:;;<kVJ1
+R2
+w1619701819
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop_tb.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop_tb.v
+!i122 8
+L0 1 20
+R3
+R4
+r1
+!s85 0
+31
+!s108 1619701974.000000
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/task3/loop_tb.v|
+!i113 1
+R5
+R6

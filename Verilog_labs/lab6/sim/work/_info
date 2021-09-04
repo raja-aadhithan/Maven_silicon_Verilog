@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Aadhithan/Documents/Verilog_labs/lab5/clock
+vaclk_keyreg
+!s110 1617198248
+!i10b 1
+!s100 JCMIK76JiblIDRaU6cbUU0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[WE65^?ne5dXbo2@VbYWH2
+Z1 dC:/Users/Aadhithan/Documents/Verilog_labs/lab6/sim
+w1617198210
+8C:/Users/Aadhithan/Documents/Verilog_labs/Project_templates/rtl/aclk_keyreg.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/Project_templates/rtl/aclk_keyreg.v
+!i122 4
+Z2 L0 1 23
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1617198248.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/Project_templates/rtl/aclk_keyreg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/Project_templates/rtl/aclk_keyreg.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vseq_det
+Z7 !s110 1616842517
+!i10b 1
+!s100 >KdXlj22H^2d^UEDHRnA;2
+R0
+IZT85HPIbTEZhGhY>kOPjk0
+R1
+w1616842002
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab6/rtl/seq_det.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab6/rtl/seq_det.v
+!i122 1
+R2
+R3
+R4
+r1
+!s85 0
+31
+Z8 !s108 1616842517.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab6/rtl/seq_det.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab6/rtl/seq_det.v|
+!i113 1
+R5
+R6
+vseq_det_tb
+R7
+!i10b 1
+!s100 QSAUlBBoTlDn31]0I@l3K3
+R0
+I[L0Nbj^5dViimNB@MGaUd3
+R1
+w1616842478
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab6/tb/seq_det_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab6/tb/seq_det_tb.v
+!i122 2
+L0 25 97
+R3
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab6/tb/seq_det_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab6/tb/seq_det_tb.v|
+!i113 1
+R5
+R6

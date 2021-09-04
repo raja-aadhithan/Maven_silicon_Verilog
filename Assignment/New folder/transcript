@@ -1,0 +1,94 @@
+# Compile of asses_tb1.v failed with 7 errors.
+# Compile of asses1.v failed with 2 errors.
+# Compile of asses2.v failed with 2 errors.
+# 3 compiles, 3 failed with 11 errors.
+# Compile of asses_tb1.v was successful.
+# Compile of asses2.v failed with 2 errors.
+# Compile of asses2.v was successful.
+# Compile of asses1.v was successful.
+vsim work.sub_tb
+# vsim work.sub_tb 
+# Start time: 10:42:44 on Apr 10,2021
+# Loading work.sub_tb
+# Loading work.full_sub
+# Loading work.half_sub
+add wave -position insertpoint sim:/sub_tb/*
+add wave -r sim:/sub_tb/*
+# can't read "vsimPriv(.main_pane.wave.interior.cs.body.pw.wf:current_tree)": no such element in array
+run -all
+# @time:   0 : a is 0, b is 0, c is 0 where difference is 0 and borrow is 0
+# @time:  10 : a is 0, b is 0, c is 1 where difference is 1 and borrow is 1
+# @time:  20 : a is 0, b is 1, c is 0 where difference is 1 and borrow is 1
+# @time:  30 : a is 0, b is 1, c is 1 where difference is 0 and borrow is 0
+# @time:  40 : a is 1, b is 0, c is 0 where difference is 1 and borrow is 0
+# @time:  50 : a is 1, b is 0, c is 1 where difference is 0 and borrow is 1
+# @time:  60 : a is 1, b is 1, c is 0 where difference is 0 and borrow is 0
+# @time:  70 : a is 1, b is 1, c is 1 where difference is 1 and borrow is 0
+vsim work.sub_tb
+# End time: 10:49:00 on Apr 10,2021, Elapsed time: 0:06:16
+# Errors: 0, Warnings: 10
+# vsim work.sub_tb 
+# Start time: 10:49:00 on Apr 10,2021
+# Loading work.sub_tb
+# Loading work.full_sub
+# Loading work.half_sub
+run -all
+# @time:   0 : a is 0, b is 0, c is 0 where difference is 0 and borrow is 0
+# @time:  10 : a is 0, b is 0, c is 1 where difference is 1 and borrow is 1
+# @time:  20 : a is 0, b is 1, c is 0 where difference is 1 and borrow is 1
+# @time:  30 : a is 0, b is 1, c is 1 where difference is 0 and borrow is 0
+# @time:  40 : a is 1, b is 0, c is 0 where difference is 1 and borrow is 0
+# @time:  50 : a is 1, b is 0, c is 1 where difference is 0 and borrow is 1
+# @time:  60 : a is 1, b is 1, c is 0 where difference is 0 and borrow is 0
+# @time:  70 : a is 1, b is 1, c is 1 where difference is 1 and borrow is 0
+# Compile of asses1.v was successful.
+# Compile of asses_tb1.v was successful.
+# Compile of asses1.v was successful.
+# Compile of asses2.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.sub_tb
+# End time: 10:55:27 on Apr 10,2021, Elapsed time: 0:06:27
+# Errors: 0, Warnings: 3
+# vsim work.sub_tb 
+# Start time: 10:55:27 on Apr 10,2021
+# Loading work.sub_tb
+# Loading work.full_sub
+# Loading work.half_sub
+add wave -position insertpoint sim:/sub_tb/*
+run -all
+# @time:   0 : a is 0, b is 0, c is 0 where difference is 0 and borrow is 0
+# @time:  10 : a is 0, b is 0, c is 1 where difference is 1 and borrow is 0
+# @time:  20 : a is 0, b is 1, c is 0 where difference is 1 and borrow is 1
+# @time:  30 : a is 0, b is 1, c is 1 where difference is 0 and borrow is 1
+# @time:  40 : a is 1, b is 0, c is 0 where difference is 1 and borrow is 1
+# @time:  50 : a is 1, b is 0, c is 1 where difference is 0 and borrow is 0
+# @time:  60 : a is 1, b is 1, c is 0 where difference is 0 and borrow is 0
+# @time:  70 : a is 1, b is 1, c is 1 where difference is 1 and borrow is 0
+# Compile of asses_tb1.v was successful.
+# Compile of asses1.v was successful.
+# Compile of asses2.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of asses_tb1.v was successful.
+# Compile of asses1.v was successful.
+# Compile of asses2.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.sub_tb
+# End time: 10:58:47 on Apr 10,2021, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 3
+# vsim work.sub_tb 
+# Start time: 10:58:47 on Apr 10,2021
+# Loading work.sub_tb
+# Loading work.full_sub
+# Loading work.half_sub
+add wave -position insertpoint sim:/sub_tb/*
+run -all
+# @time:   0 : a is 0, b is 0, c is 0 where difference is 0 and borrow is 0
+# @time:  10 : a is 0, b is 0, c is 1 where difference is 1 and borrow is 1
+# @time:  20 : a is 0, b is 1, c is 0 where difference is 1 and borrow is 1
+# @time:  30 : a is 0, b is 1, c is 1 where difference is 0 and borrow is 1
+# @time:  40 : a is 1, b is 0, c is 0 where difference is 1 and borrow is 0
+# @time:  50 : a is 1, b is 0, c is 1 where difference is 0 and borrow is 0
+# @time:  60 : a is 1, b is 1, c is 0 where difference is 0 and borrow is 0
+# @time:  70 : a is 1, b is 1, c is 1 where difference is 1 and borrow is 1
+# End time: 11:06:36 on Apr 10,2021, Elapsed time: 0:07:49
+# Errors: 0, Warnings: 1

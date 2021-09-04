@@ -1,0 +1,39 @@
+vsim work.seq_det_tb
+# vsim work.seq_det_tb 
+# Start time: 13:32:30 on Apr 01,2021
+# Loading work.seq_det_tb
+# Loading work.seq_det
+add wave -position insertpoint sim:/seq_det_tb/*
+run -all
+# Reset=x, state=xx, Din=0, Output Dout=x
+# Reset=1, state=xx, Din=0, Output Dout=x
+# Reset=1, state=00, Din=0, Output Dout=0
+# Reset=0, state=00, Din=0, Output Dout=0
+# Reset=0, state=00, Din=1, Output Dout=0
+# Reset=0, state=01, Din=1, Output Dout=0
+# Reset=0, state=01, Din=0, Output Dout=0
+# Reset=0, state=10, Din=0, Output Dout=0
+# Reset=0, state=10, Din=1, Output Dout=0
+# Correct output at state 11
+# Reset=0, state=11, Din=1, Output Dout=1
+# Reset=0, state=11, Din=0, Output Dout=1
+# Reset=0, state=10, Din=0, Output Dout=0
+# Reset=0, state=10, Din=1, Output Dout=0
+# Correct output at state 11
+# Reset=0, state=11, Din=1, Output Dout=1
+# Reset=1, state=00, Din=1, Output Dout=0
+# Reset=0, state=01, Din=1, Output Dout=0
+# Reset=0, state=01, Din=0, Output Dout=0
+# Reset=0, state=10, Din=0, Output Dout=0
+# Reset=0, state=10, Din=1, Output Dout=0
+# Correct output at state 11
+# Reset=0, state=11, Din=1, Output Dout=1
+# Reset=0, state=01, Din=1, Output Dout=0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab6/tb/seq_det_tb.v(117)
+#    Time: 135 ps  Iteration: 0  Instance: /seq_det_tb
+# 1
+# Break in Module seq_det_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab6/tb/seq_det_tb.v line 117
+quit -sim
+# End time: 13:35:07 on Apr 01,2021, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 2
+# Closing project C:/Users/Aadhithan/Documents/Verilog_labs/lab6/sim/fsm.mpf

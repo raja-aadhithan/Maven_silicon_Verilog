@@ -1,0 +1,65 @@
+vsim work.ram_tb
+# vsim work.ram_tb 
+# Start time: 13:02:08 on Apr 01,2021
+# Loading work.ram_tb
+# Loading work.ram
+add wave -position insertpoint sim:/ram_tb/*
+add wave -position insertpoint sim:/ram_tb/*
+run -all
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab5/tb/ram_tb.v(96)
+#    Time: 350 ps  Iteration: 0  Instance: /ram_tb
+# 1
+# Break in Module ram_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab5/tb/ram_tb.v line 96
+# Compile of ram_tb.v was successful.
+vsim work.ram_tb
+# End time: 13:06:19 on Apr 01,2021, Elapsed time: 0:04:11
+# Errors: 0, Warnings: 2
+# vsim work.ram_tb 
+# Start time: 13:06:19 on Apr 01,2021
+# Loading work.ram_tb
+# Loading work.ram
+add wave -position insertpoint sim:/ram_tb/*
+run -all
+# @time:   0 enable is 0, Write is 0 address is xxxx, data is zzzzzzzz
+# @time:  10 enable is 0, Write is 1 address is 0000, data is 00000000
+# @time:  20 enable is 0, Write is 1 address is 0001, data is 00000001
+# @time:  30 enable is 0, Write is 1 address is 0010, data is 00000010
+# @time:  40 enable is 0, Write is 1 address is 0011, data is 00000011
+# @time:  50 enable is 0, Write is 1 address is 0100, data is 00000100
+# @time:  60 enable is 0, Write is 1 address is 0101, data is 00000101
+# @time:  70 enable is 0, Write is 1 address is 0110, data is 00000110
+# @time:  80 enable is 0, Write is 1 address is 0111, data is 00000111
+# @time:  90 enable is 0, Write is 1 address is 1000, data is 00001000
+# @time: 100 enable is 0, Write is 1 address is 1001, data is 00001001
+# @time: 110 enable is 0, Write is 1 address is 1010, data is 00001010
+# @time: 120 enable is 0, Write is 1 address is 1011, data is 00001011
+# @time: 130 enable is 0, Write is 1 address is 1100, data is 00001100
+# @time: 140 enable is 0, Write is 1 address is 1101, data is 00001101
+# @time: 150 enable is 0, Write is 1 address is 1110, data is 00001110
+# @time: 160 enable is 0, Write is 1 address is 1111, data is 00001111
+# @time: 170 enable is 0, Write is 0 address is 1111, data is zzzzzzzz
+# @time: 180 enable is 1, Write is 0 address is 0000, data is 00000000
+# @time: 190 enable is 1, Write is 0 address is 0001, data is 00000001
+# @time: 200 enable is 1, Write is 0 address is 0010, data is 00000010
+# @time: 210 enable is 1, Write is 0 address is 0011, data is 00000011
+# @time: 220 enable is 1, Write is 0 address is 0100, data is 00000100
+# @time: 230 enable is 1, Write is 0 address is 0101, data is 00000101
+# @time: 240 enable is 1, Write is 0 address is 0110, data is 00000110
+# @time: 250 enable is 1, Write is 0 address is 0111, data is 00000111
+# @time: 260 enable is 1, Write is 0 address is 1000, data is 00001000
+# @time: 270 enable is 1, Write is 0 address is 1001, data is 00001001
+# @time: 280 enable is 1, Write is 0 address is 1010, data is 00001010
+# @time: 290 enable is 1, Write is 0 address is 1011, data is 00001011
+# @time: 300 enable is 1, Write is 0 address is 1100, data is 00001100
+# @time: 310 enable is 1, Write is 0 address is 1101, data is 00001101
+# @time: 320 enable is 1, Write is 0 address is 1110, data is 00001110
+# @time: 330 enable is 1, Write is 0 address is 1111, data is 00001111
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab5/tb/ram_tb.v(97)
+#    Time: 350 ps  Iteration: 0  Instance: /ram_tb
+# 1
+# Break in Module ram_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab5/tb/ram_tb.v line 97
+quit -sim
+# End time: 13:12:27 on Apr 01,2021, Elapsed time: 0:06:08
+# Errors: 0, Warnings: 1
+# reading C:/intelFPGA_pro/20.4/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project fifo

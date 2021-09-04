@@ -1,0 +1,15 @@
+C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/sipo/sipo.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/sipo/sipo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module sipo
+
+Top level modules:
+	sipo
+
+} {} {}} C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/sipo/sipo_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/sipo/sipo_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module sipo_tb
+
+Top level modules:
+	sipo_tb
+
+} {} {}}

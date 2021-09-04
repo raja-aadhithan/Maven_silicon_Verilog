@@ -1,0 +1,72 @@
+# Compile of alu.v was successful with warnings.
+# Compile of alu.v was successful.
+# Compile of testbench.v failed with 1 errors.
+# Compile of testbench.v was successful.
+# Compile of testbench.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 10:25:52 on Apr 14,2021
+# Loading work.testbench
+# Loading work.alu
+add wave -r sim:/testbench/*
+run -all
+# @time =    0, load = x, shift = xx, q = 0000000000000000
+# @time =   10, load = 1, shift = xx, q = 0000000000000000
+# @time =   20, load = 0, shift = 00, q = 0000000000000000
+# @time =   40, load = 0, shift = 01, q = 0000000000000000
+# @time =   60, load = 0, shift = 10, q = 0000000000000000
+# @time =   80, load = 0, shift = 11, q = 0000000000000000
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/verilog assesment 2/testbench.v(40)
+#    Time: 100 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/verilog assesment 2/testbench.v line 40
+# Compile of testbench.v was successful.
+vsim work.testbench
+# End time: 10:27:08 on Apr 14,2021, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 11
+# vsim work.testbench 
+# Start time: 10:27:08 on Apr 14,2021
+# Loading work.testbench
+# Loading work.alu
+add wave -r sim:/testbench/*
+run -all
+# @time =    0, load = x, shift = xx, q = 0000000000000000
+# @time =   10, load = 1, shift = xx, q = c19073e87a2d5b7e
+# @time =   20, load = 0, shift = 00, q = 8320e7d0f45ab6fc
+# @time =   30, load = 0, shift = 00, q = 0641cfa1e8b56df8
+# @time =   40, load = 0, shift = 01, q = 0320e7d0f45ab6fc
+# @time =   50, load = 0, shift = 01, q = 019073e87a2d5b7e
+# @time =   60, load = 0, shift = 10, q = 9073e87a2d5b7e00
+# @time =   70, load = 0, shift = 10, q = 73e87a2d5b7e0000
+# @time =   80, load = 0, shift = 11, q = 0073e87a2d5b7e00
+# @time =   90, load = 0, shift = 11, q = 000073e87a2d5b7e
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/verilog assesment 2/testbench.v(40)
+#    Time: 100 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/verilog assesment 2/testbench.v line 40
+# Compile of alu.v was successful.
+vsim work.testbench
+# End time: 10:44:33 on Apr 14,2021, Elapsed time: 0:17:25
+# Errors: 0, Warnings: 2
+# vsim work.testbench 
+# Start time: 10:44:33 on Apr 14,2021
+# Loading work.testbench
+# Loading work.alu
+add wave -r sim:/testbench/*
+run -all
+# @time =    0, load = x, shift = xx, q = 0000000000000000
+# @time =   10, load = 1, shift = xx, q = c19073e87a2d5b7e
+# @time =   20, load = 0, shift = 00, q = 8320e7d0f45ab6fc
+# @time =   30, load = 0, shift = 00, q = 0641cfa1e8b56df8
+# @time =   40, load = 0, shift = 01, q = 0320e7d0f45ab6fc
+# @time =   50, load = 0, shift = 01, q = 019073e87a2d5b7e
+# @time =   60, load = 0, shift = 10, q = 9073e87a2d5b7e00
+# @time =   70, load = 0, shift = 10, q = 73e87a2d5b7e0000
+# @time =   80, load = 0, shift = 11, q = 0073e87a2d5b7e00
+# @time =   90, load = 0, shift = 11, q = 000073e87a2d5b7e
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/verilog assesment 2/testbench.v(40)
+#    Time: 100 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/verilog assesment 2/testbench.v line 40
+# End time: 10:50:12 on Apr 14,2021, Elapsed time: 0:05:39
+# Errors: 0, Warnings: 2

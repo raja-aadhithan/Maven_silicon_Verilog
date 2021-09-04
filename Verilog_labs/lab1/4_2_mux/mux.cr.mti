@@ -1,0 +1,22 @@
+C:/Users/Aadhithan/Documents/Verilog_labs/lab1/4_2_mux/muv4_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab1/4_2_mux/muv4_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module mux4_tb
+
+Top level modules:
+	mux4_tb
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/mux_4.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/mux_4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/2_mux.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/2_mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}}

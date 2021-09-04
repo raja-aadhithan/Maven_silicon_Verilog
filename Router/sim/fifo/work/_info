@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/sim/fifo
+vrouter_fifo
+Z1 !s110 1619752653
+!i10b 1
+!s100 m3?NkQK=oR=C54EA_0kBE1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaQXjNkeP?hPVVnlUcb0EF0
+R0
+w1619435311
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo.v
+!i122 2
+L0 1 77
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1619752652.000000
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vrouter_fifo_tb
+R1
+!i10b 1
+!s100 _:i3JUODQe>9LQedUI<X[0
+R2
+IYK[Y_;baf:6nIgULI^0f;0
+R0
+w1619435324
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo_tb.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo_tb.v
+!i122 3
+L0 1 83
+R3
+R4
+r1
+!s85 0
+31
+!s108 1619752653.000000
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo_tb.v|
+!i113 1
+R5
+R6

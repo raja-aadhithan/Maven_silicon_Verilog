@@ -1,0 +1,35 @@
+vsim work.router_top_tb_16
+# vsim work.router_top_tb_16 
+# Start time: 13:19:21 on Apr 28,2021
+# Loading work.router_top_tb_16
+# Loading work.router_top
+# Loading work.router_fsm
+# Loading work.router_reg
+# Loading work.router_sync
+# Loading work.router_fifo
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/router_top_tb_16/*
+run -all
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_top_tb_16.v(59)
+#    Time: 1485 ps  Iteration: 0  Instance: /router_top_tb_16
+# 1
+# Break in Module router_top_tb_16 at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_top_tb_16.v line 59
+vsim work.router_top_tb
+# End time: 13:23:43 on Apr 28,2021, Elapsed time: 0:04:22
+# Errors: 0, Warnings: 1
+# vsim work.router_top_tb 
+# Start time: 13:23:43 on Apr 28,2021
+# Loading work.router_top_tb
+# Loading work.router_top
+# Loading work.router_fsm
+# Loading work.router_reg
+# Loading work.router_sync
+# Loading work.router_fifo
+add wave -position insertpoint sim:/router_top_tb/*
+run -all
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_top_tb.v(60)
+#    Time: 1465 ps  Iteration: 0  Instance: /router_top_tb
+# 1
+# Break in Module router_top_tb at C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_top_tb.v line 60
+# End time: 13:26:57 on Apr 28,2021, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 1

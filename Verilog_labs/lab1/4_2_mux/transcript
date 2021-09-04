@@ -1,0 +1,100 @@
+vsim work.mux4_tb
+# vsim work.mux4_tb 
+# Start time: 12:44:01 on Mar 26,2021
+# Loading work.mux4_tb
+# Loading work.mux4
+# Loading work.mux2
+add wave -r sim:/mux4_tb/*
+run -all
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/muv4_tb.v(16)
+#    Time: 1 ns  Iteration: 0  Instance: /mux4_tb
+# 1
+# Break in Module mux4_tb at C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/muv4_tb.v line 16
+# Error opening C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/muv4_tb.v
+# Path name 'C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/muv4_tb.v' doesn't exist.
+# Error opening C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/muv4_tb.v
+# Path name 'C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/muv4_tb.v' doesn't exist.
+# Error opening C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/muv4_tb.v
+# Path name 'C:/Users/Aadhithan/Documents/Verilog_labs/4_2_mux/muv4_tb.v' doesn't exist.
+# Compile of muv4_tb.v failed with 2 errors.
+# Compile of muv4_tb.v was successful.
+vsim work.mux4_tb
+# End time: 12:50:37 on Mar 26,2021, Elapsed time: 0:06:36
+# Errors: 0, Warnings: 6
+# vsim work.mux4_tb 
+# Start time: 12:50:37 on Mar 26,2021
+# Loading work.mux4_tb
+# Loading work.mux4
+# Loading work.mux2
+run -all
+# @time:  0- selsct is 00 nad input is 0,0,0,0 for output is 0
+# @time: 10- selsct is 00 nad input is 0,0,0,1 for output is 0
+# @time: 20- selsct is 00 nad input is 0,0,1,0 for output is 0
+# @time: 30- selsct is 00 nad input is 0,0,1,1 for output is 0
+# @time: 40- selsct is 00 nad input is 0,1,0,0 for output is 0
+# @time: 50- selsct is 00 nad input is 0,1,0,1 for output is 0
+# @time: 60- selsct is 00 nad input is 0,1,1,0 for output is 0
+# @time: 70- selsct is 00 nad input is 0,1,1,1 for output is 0
+# @time: 80- selsct is 00 nad input is 1,0,0,0 for output is 1
+# @time: 90- selsct is 00 nad input is 1,0,0,1 for output is 1
+# @time:100- selsct is 00 nad input is 1,0,1,0 for output is 1
+# @time:110- selsct is 00 nad input is 1,0,1,1 for output is 1
+# @time:120- selsct is 00 nad input is 1,1,0,0 for output is 1
+# @time:130- selsct is 00 nad input is 1,1,0,1 for output is 1
+# @time:140- selsct is 00 nad input is 1,1,1,0 for output is 1
+# @time:150- selsct is 00 nad input is 1,1,1,1 for output is 1
+# @time:160- selsct is 01 nad input is 0,0,0,0 for output is 0
+# @time:170- selsct is 01 nad input is 0,0,0,1 for output is 0
+# @time:180- selsct is 01 nad input is 0,0,1,0 for output is 0
+# @time:190- selsct is 01 nad input is 0,0,1,1 for output is 0
+# @time:200- selsct is 01 nad input is 0,1,0,0 for output is 1
+# @time:210- selsct is 01 nad input is 0,1,0,1 for output is 1
+# @time:220- selsct is 01 nad input is 0,1,1,0 for output is 1
+# @time:230- selsct is 01 nad input is 0,1,1,1 for output is 1
+# @time:240- selsct is 01 nad input is 1,0,0,0 for output is 0
+# @time:250- selsct is 01 nad input is 1,0,0,1 for output is 0
+# @time:260- selsct is 01 nad input is 1,0,1,0 for output is 0
+# @time:270- selsct is 01 nad input is 1,0,1,1 for output is 0
+# @time:280- selsct is 01 nad input is 1,1,0,0 for output is 1
+# @time:290- selsct is 01 nad input is 1,1,0,1 for output is 1
+# @time:300- selsct is 01 nad input is 1,1,1,0 for output is 1
+# @time:310- selsct is 01 nad input is 1,1,1,1 for output is 1
+# @time:320- selsct is 10 nad input is 0,0,0,0 for output is 0
+# @time:330- selsct is 10 nad input is 0,0,0,1 for output is 0
+# @time:340- selsct is 10 nad input is 0,0,1,0 for output is 1
+# @time:350- selsct is 10 nad input is 0,0,1,1 for output is 1
+# @time:360- selsct is 10 nad input is 0,1,0,0 for output is 0
+# @time:370- selsct is 10 nad input is 0,1,0,1 for output is 0
+# @time:380- selsct is 10 nad input is 0,1,1,0 for output is 1
+# @time:390- selsct is 10 nad input is 0,1,1,1 for output is 1
+# @time:400- selsct is 10 nad input is 1,0,0,0 for output is 0
+# @time:410- selsct is 10 nad input is 1,0,0,1 for output is 0
+# @time:420- selsct is 10 nad input is 1,0,1,0 for output is 1
+# @time:430- selsct is 10 nad input is 1,0,1,1 for output is 1
+# @time:440- selsct is 10 nad input is 1,1,0,0 for output is 0
+# @time:450- selsct is 10 nad input is 1,1,0,1 for output is 0
+# @time:460- selsct is 10 nad input is 1,1,1,0 for output is 1
+# @time:470- selsct is 10 nad input is 1,1,1,1 for output is 1
+# @time:480- selsct is 11 nad input is 0,0,0,0 for output is 0
+# @time:490- selsct is 11 nad input is 0,0,0,1 for output is 1
+# @time:500- selsct is 11 nad input is 0,0,1,0 for output is 0
+# @time:510- selsct is 11 nad input is 0,0,1,1 for output is 1
+# @time:520- selsct is 11 nad input is 0,1,0,0 for output is 0
+# @time:530- selsct is 11 nad input is 0,1,0,1 for output is 1
+# @time:540- selsct is 11 nad input is 0,1,1,0 for output is 0
+# @time:550- selsct is 11 nad input is 0,1,1,1 for output is 1
+# @time:560- selsct is 11 nad input is 1,0,0,0 for output is 0
+# @time:570- selsct is 11 nad input is 1,0,0,1 for output is 1
+# @time:580- selsct is 11 nad input is 1,0,1,0 for output is 0
+# @time:590- selsct is 11 nad input is 1,0,1,1 for output is 1
+# @time:600- selsct is 11 nad input is 1,1,0,0 for output is 0
+# @time:610- selsct is 11 nad input is 1,1,0,1 for output is 1
+# @time:620- selsct is 11 nad input is 1,1,1,0 for output is 0
+# @time:630- selsct is 11 nad input is 1,1,1,1 for output is 1
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab1/4_2_mux/muv4_tb.v(16)
+#    Time: 1 ns  Iteration: 0  Instance: /mux4_tb
+# 1
+# Break in Module mux4_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab1/4_2_mux/muv4_tb.v line 16
+quit -sim
+# End time: 12:56:25 on Mar 26,2021, Elapsed time: 0:05:48
+# Errors: 0, Warnings: 1

@@ -1,0 +1,367 @@
+Synthesis report
+Sat Mar 27 10:46:16 2021
+Quartus Prime Version 20.4.0 Build 72 12/14/2020 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Synthesis Summary
+  2. Synthesis Settings
+  3. Synthesis Source Files Read
+  4. Synthesis Partition Summary
+  5. Partition "root_partition" Resource Utilization by Entity
+  6. User-Specified and Inferred Latches
+  7. General Register Statistics for Partition "root_partition"
+  8. Multiplexer Restructuring Statistics (Restructuring Performed)
+  9. Post-Synthesis Netlist Statistics for Partition "root_partition"
+ 10. Synthesis Resource Usage Summary for Partition "root_partition"
+ 11. Synthesis Messages
+
+
+
++---------------------------------------------------------------+
+; Synthesis Summary                                             ;
++-----------------------+---------------------------------------+
+; Synthesis Status      ; Successful - Sat Mar 27 10:46:16 2021 ;
+; Revision Name         ; aram8x16                              ;
+; Top-level Entity Name ; aram8x16                              ;
+; Family                ; Cyclone 10 GX                         ;
++-----------------------+---------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Synthesis Settings                                                                                                        ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 10CX220YF780I5G    ;                    ;
+; Top-level entity name                                                           ; aram8x16           ; aram8x16           ;
+; Family name                                                                     ; Cyclone 10 GX      ; Cyclone 10 GX      ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Design Assistant include IP blocks                                              ; Off                ; Off                ;
+; High fanout net threshold for RAM inference                                     ; 15                 ; 15                 ;
+; Design Assistant limit on reported violations per rule                          ; 500                ; 500                ;
+; Optimization Mode                                                               ; Balanced           ; Balanced           ;
+; Allow Register Merging                                                          ; On                 ; On                 ;
+; Allow Register Duplication                                                      ; On                 ; On                 ;
+; Allow Register Retiming                                                         ; On                 ; On                 ;
+; Allow RAM Retiming                                                              ; Off                ; Off                ;
+; Allow DSP Retiming                                                              ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Auto               ; Auto               ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Number of Protected Registers Reported in Synthesis Report                      ; 100                ; 100                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
+; Disable DSP Negate Inferencing                                                  ; Off                ; Off                ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Parameter Settings to ASCII                                              ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Source Assignments to ASCII                                              ; On                 ; On                 ;
+; Report Resource Utilization by Entity to ASCII                                  ; On                 ; On                 ;
+; Size of the Latch Report                                                        ; 100                ; 100                ;
+; Enable State Machines Inference                                                 ; On                 ; On                 ;
+; Enable formal verification support during compilation                           ; Off                ; Off                ;
+; Size of the PR Initial Conditions Report                                        ; 100                ; 100                ;
+; Number of Registers with Ignored Power-Up Settings Reported in Synthesis Report ; 500                ; 500                ;
+; Report PR Initial Values as Errors                                              ; Off                ; Off                ;
+; Fractal Synthesis                                                               ; Off                ; Off                ;
+; Synthesis Available Resource Multiplier                                         ; 1                  ; 1                  ;
+; Message Level for Unconnected Output Ports                                      ; Warning            ; Warning            ;
+; Pack Barrelshifters into Carry Chains for Better Area                           ; Auto               ; Auto               ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Synthesis Source Files Read                                                                                                                                                ;
++----------------------------------+------------------------+-------------------------------------------------------------------+---------+----------------------------------+
+; File Name with User-Entered Path ; File Type              ; File Name with Absolute Path                                      ; Library ; MD5                              ;
++----------------------------------+------------------------+-------------------------------------------------------------------+---------+----------------------------------+
+; aram8x16.v                       ; User Verilog HDL File  ; C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v ;         ; c48b2a6c121dd962c9513bfe13263775 ;
++----------------------------------+------------------------+-------------------------------------------------------------------+---------+----------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Synthesis Partition Summary                                                                ;
++----------------+----------------+---------+--------------+-------+-------------------------+
+; Partition Name ; Hierarchy Path ; Type    ; Preservation ; Empty ; Partition Database File ;
++----------------+----------------+---------+--------------+-------+-------------------------+
+; root_partition ; |              ; Default ;              ;       ;                         ;
++----------------+----------------+---------+--------------+-------+-------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition "root_partition" Resource Utilization by Entity                                                                                                                                       ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; IOPLLs ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------+---------------------+-------------+--------------+
+; |                          ; 108 (108)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; 0 (0)  ; |                   ; aram8x16    ; altera_work  ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++-----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------+------------------------+
+; out[0]                                              ; rd_in               ; yes                    ;
+; out[1]                                              ; rd_in               ; yes                    ;
+; out[2]                                              ; rd_in               ; yes                    ;
+; out[3]                                              ; rd_in               ; yes                    ;
+; out[4]                                              ; rd_in               ; yes                    ;
+; out[5]                                              ; rd_in               ; yes                    ;
+; out[6]                                              ; rd_in               ; yes                    ;
+; out[7]                                              ; rd_in               ; yes                    ;
+; mem[4][0]                                           ; i624                ; yes                    ;
+; mem[5][0]                                           ; i528                ; yes                    ;
+; mem[6][0]                                           ; i432                ; yes                    ;
+; mem[7][0]                                           ; i336                ; yes                    ;
+; mem[0][0]                                           ; i1008               ; yes                    ;
+; mem[1][0]                                           ; i912                ; yes                    ;
+; mem[2][0]                                           ; i816                ; yes                    ;
+; mem[3][0]                                           ; i720                ; yes                    ;
+; mem[4][1]                                           ; i624                ; yes                    ;
+; mem[5][1]                                           ; i528                ; yes                    ;
+; mem[6][1]                                           ; i432                ; yes                    ;
+; mem[7][1]                                           ; i336                ; yes                    ;
+; mem[0][1]                                           ; i1008               ; yes                    ;
+; mem[1][1]                                           ; i912                ; yes                    ;
+; mem[2][1]                                           ; i816                ; yes                    ;
+; mem[3][1]                                           ; i720                ; yes                    ;
+; mem[4][2]                                           ; i624                ; yes                    ;
+; mem[5][2]                                           ; i528                ; yes                    ;
+; mem[6][2]                                           ; i432                ; yes                    ;
+; mem[7][2]                                           ; i336                ; yes                    ;
+; mem[0][2]                                           ; i1008               ; yes                    ;
+; mem[1][2]                                           ; i912                ; yes                    ;
+; mem[2][2]                                           ; i816                ; yes                    ;
+; mem[3][2]                                           ; i720                ; yes                    ;
+; mem[4][3]                                           ; i624                ; yes                    ;
+; mem[5][3]                                           ; i528                ; yes                    ;
+; mem[6][3]                                           ; i432                ; yes                    ;
+; mem[7][3]                                           ; i336                ; yes                    ;
+; mem[0][3]                                           ; i1008               ; yes                    ;
+; mem[1][3]                                           ; i912                ; yes                    ;
+; mem[2][3]                                           ; i816                ; yes                    ;
+; mem[3][3]                                           ; i720                ; yes                    ;
+; mem[4][4]                                           ; i624                ; yes                    ;
+; mem[5][4]                                           ; i528                ; yes                    ;
+; mem[6][4]                                           ; i432                ; yes                    ;
+; mem[7][4]                                           ; i336                ; yes                    ;
+; mem[0][4]                                           ; i1008               ; yes                    ;
+; mem[1][4]                                           ; i912                ; yes                    ;
+; mem[2][4]                                           ; i816                ; yes                    ;
+; mem[3][4]                                           ; i720                ; yes                    ;
+; mem[4][5]                                           ; i624                ; yes                    ;
+; mem[5][5]                                           ; i528                ; yes                    ;
+; mem[6][5]                                           ; i432                ; yes                    ;
+; mem[7][5]                                           ; i336                ; yes                    ;
+; mem[0][5]                                           ; i1008               ; yes                    ;
+; mem[1][5]                                           ; i912                ; yes                    ;
+; mem[2][5]                                           ; i816                ; yes                    ;
+; mem[3][5]                                           ; i720                ; yes                    ;
+; mem[4][6]                                           ; i624                ; yes                    ;
+; mem[5][6]                                           ; i528                ; yes                    ;
+; mem[6][6]                                           ; i432                ; yes                    ;
+; mem[7][6]                                           ; i336                ; yes                    ;
+; mem[0][6]                                           ; i1008               ; yes                    ;
+; mem[1][6]                                           ; i912                ; yes                    ;
+; mem[2][6]                                           ; i816                ; yes                    ;
+; mem[3][6]                                           ; i720                ; yes                    ;
+; mem[4][7]                                           ; i624                ; yes                    ;
+; mem[5][7]                                           ; i528                ; yes                    ;
+; mem[6][7]                                           ; i432                ; yes                    ;
+; mem[7][7]                                           ; i336                ; yes                    ;
+; mem[0][7]                                           ; i1008               ; yes                    ;
+; mem[1][7]                                           ; i912                ; yes                    ;
+; mem[2][7]                                           ; i816                ; yes                    ;
+; mem[3][7]                                           ; i720                ; yes                    ;
+; Number of user-specified and inferred latches = 72  ;                     ;                        ;
++-----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------------+
+; General Register Statistics for Partition "root_partition" ;
++----------------------------------------------+-------------+
+; Statistic                                    ; Value       ;
++----------------------------------------------+-------------+
+; Total registers                              ; 0           ;
+; Number of registers using Synchronous Clear  ; 0           ;
+; Number of registers using Synchronous Load   ; 0           ;
+; Number of registers using Asynchronous Clear ; 0           ;
+; Number of registers using Asynchronous Load  ; 0           ;
+; Number of registers using Clock Enable       ; 0           ;
+; Number of registers using Preset             ; 0           ;
++----------------------------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+-------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ; Restructuring Performed ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+-------------------------+
+; 16:1               ; 8 bits    ; 80 LEs        ; 48 LEs               ; 32 LEs                 ; No         ; Mux_15                     ; Yes                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+-------------------------+
+
+
++------------------------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Partition "root_partition" ;
++------------------------+-----------------------------------------+
+; Type                   ; Count                                   ;
++------------------------+-----------------------------------------+
+; boundary_port          ; 40                                      ;
+; cyclone10gx_lcell_comb ; 108                                     ;
+;     normal             ; 108                                     ;
+;         0 data inputs  ; 1                                       ;
+;         3 data inputs  ; 72                                      ;
+;         4 data inputs  ; 9                                       ;
+;         5 data inputs  ; 10                                      ;
+;         6 data inputs  ; 16                                      ;
+;                        ;                                         ;
+; Number of carry chains ; 0                                       ;
+; Max carry chain length ; 0                                       ;
+;                        ;                                         ;
+; Max LUT depth          ; 3.00                                    ;
+; Average LUT depth      ; 1.84                                    ;
++------------------------+-----------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Synthesis Resource Usage Summary for Partition "root_partition" ;
++---------------------------------------------+-------------------+
+; Resource                                    ; Usage             ;
++---------------------------------------------+-------------------+
+; Estimate of Logic utilization (ALMs needed) ; 62                ;
+;                                             ;                   ;
+; Combinational ALUT usage for logic          ; 108               ;
+;     -- 7 input functions                    ; 0                 ;
+;     -- 6 input functions                    ; 16                ;
+;     -- 5 input functions                    ; 10                ;
+;     -- 4 input functions                    ; 9                 ;
+;     -- <=3 input functions                  ; 73                ;
+;                                             ;                   ;
+; Dedicated logic registers                   ; 0                 ;
+;                                             ;                   ;
+; I/O pins                                    ; 40                ;
+;                                             ;                   ;
+; Total DSP Blocks                            ; 0                 ;
+;     -- [A] Total Fixed Point DSP Blocks     ; 0                 ;
+;     -- [B] Total Floating Point DSP Blocks  ; 0                 ;
+;                                             ;                   ;
+; Maximum fan-out node                        ; addr_out[0]       ;
+; Maximum fan-out                             ; 18                ;
+; Total fan-out                               ; 414               ;
+; Average fan-out                             ; 2.80              ;
++---------------------------------------------+-------------------+
+
+
++--------------------+
+; Synthesis Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Synthesis
+    Info: Version 20.4.0 Build 72 12/14/2020 SC Pro Edition
+    Info: Processing started: Sat Mar 27 10:46:10 2021
+    Info: System process ID: 6520
+Info: Command: quartus_syn --read_settings_files=on --write_settings_files=off aram8x16 -c aram8x16
+Info: qis_default_flow_script.tcl version: #2
+Info: Initializing Synthesis...
+Info: Project = "aram8x16"
+Info: Revision = "aram8x16"
+Info: Analyzing source files
+Info: Elaborating from top-level entity "aram8x16"
+Warning (13469): Verilog HDL assignment warning at aram8x16.v(10): truncated value with size 16 to match size of target (8) File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 10
+Warning (19651): Verilog HDL warning at aram8x16.v(11): latch inferred for net mem[7][15] File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 11
+Info: Found 1 design entities
+Info: There are 1 partitions after elaboration.
+Info: Creating instance-specific data models and dissolving soft partitions
+Info (18299): Expanding entity and wildcard assignments.
+Info (18300): Expanded entity and wildcard assignments. Elapsed time: 00:00:00
+Info: found pre-synthesis snapshots for 1 partition(s)
+Info: Synthesizing partition "root_partition"
+Warning (13044): Always-enabled tri-state buffer(s) removed
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "out[0]" to the node "data_rd[0]" into a wire File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 4
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "out[1]" to the node "data_rd[1]" into a wire File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 4
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "out[2]" to the node "data_rd[2]" into a wire File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 4
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "out[3]" to the node "data_rd[3]" into a wire File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 4
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "out[4]" to the node "data_rd[4]" into a wire File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 4
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "out[5]" to the node "data_rd[5]" into a wire File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 4
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "out[6]" to the node "data_rd[6]" into a wire File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 4
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "out[7]" to the node "data_rd[7]" into a wire File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 4
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "data_rd[8]" is stuck at GND File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 3
+    Warning (13410): Pin "data_rd[9]" is stuck at GND File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 3
+    Warning (13410): Pin "data_rd[10]" is stuck at GND File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 3
+    Warning (13410): Pin "data_rd[11]" is stuck at GND File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 3
+    Warning (13410): Pin "data_rd[12]" is stuck at GND File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 3
+    Warning (13410): Pin "data_rd[13]" is stuck at GND File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 3
+    Warning (13410): Pin "data_rd[14]" is stuck at GND File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 3
+    Warning (13410): Pin "data_rd[15]" is stuck at GND File: C:/Users/Aadhithan/Documents/Verilog_labs/lab5/8x16ram/aram8x16.v Line: 3
+Info (286030): Timing-Driven Synthesis is running
+Info (21057): Implemented 148 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 24 input pins
+    Info (21059): Implemented 16 output pins
+    Info (21061): Implemented 108 logic cells
+Info: Successfully synthesized partition
+Info: Saving post-synthesis snapshots for 1 partition(s)
+Info: Quartus Prime Synthesis was successful. 0 errors, 20 warnings
+    Info: Peak virtual memory: 507 megabytes
+    Info: Processing ended: Sat Mar 27 10:46:16 2021
+    Info: Elapsed time: 00:00:06
+    Info: System process ID: 6520
+
+

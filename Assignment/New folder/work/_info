@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+vfull_sub
+Z0 !s110 1618032517
+!i10b 1
+!s100 W4Pjd_Q^clQf[gE`ac1Q?0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1mlR]SMGC6BkCB@fUMfJP2
+Z2 dC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder
+w1618032510
+8C:\Users\Aadhithan\Documents\Code-sync\Maven_verilog\Assignment\New folder\asses2.v
+FC:\Users\Aadhithan\Documents\Code-sync\Maven_verilog\Assignment\New folder\asses2.v
+!i122 12
+L0 1 6
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z5 !s108 1618032517.000000
+!s107 C:\Users\Aadhithan\Documents\Code-sync\Maven_verilog\Assignment\New folder\asses2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Aadhithan\Documents\Code-sync\Maven_verilog\Assignment\New folder\asses2.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vhalf_sub
+R0
+!i10b 1
+!s100 XljNm;BbM>V:A>8^`nQ<<1
+R1
+IEGKMOYZ0A[OgAO]8b3mlU3
+R2
+w1618032097
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses1.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses1.v
+!i122 11
+L0 1 4
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses1.v|
+!i113 1
+R6
+R7
+vsub_tb
+R0
+!i10b 1
+!s100 ;=W1oUNKBnI6WYUVL_EGZ2
+R1
+I<8n?UXJnSVn[iE0FZ21hQ0
+R2
+w1618031471
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses_tb1.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses_tb1.v
+!i122 10
+L0 1 15
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses_tb1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Assignment/New folder/asses_tb1.v|
+!i113 1
+R6
+R7

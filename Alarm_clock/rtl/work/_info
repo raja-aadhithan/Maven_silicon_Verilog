@@ -1,0 +1,218 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+vaclk_areg
+Z0 !s110 1617869485
+!i10b 1
+!s100 6T>Uf3TS^SPJkDc@n[=9Y2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I39:0kTk909i8T]^AWzBaN2
+Z2 dC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl
+w1617196924
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_areg.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_areg.v
+!i122 9
+L0 1 22
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z5 !s108 1617869485.000000
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_areg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_areg.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vaclk_controller
+R0
+!i10b 1
+!s100 jJTDg2<A0E2Dhdk=>[TnK1
+R1
+IQSFoIj2@lIOlbRfkP4NmK0
+R2
+w1617775160
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_controller.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_controller.v
+!i122 10
+L0 1 125
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_controller.v|
+!i113 1
+R6
+R7
+vaclk_counter
+R0
+!i10b 1
+!s100 ]WzFnE419B2^9I;TMCXCl2
+R1
+ICjRg4lkPbd78ohcP<bO`<1
+R2
+w1617860323
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_counter.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_counter.v
+!i122 11
+L0 1 57
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_counter.v|
+!i113 1
+R6
+R7
+vaclk_keyreg
+Z8 !s110 1617869486
+!i10b 1
+!s100 JCMIK76JiblIDRaU6cbUU0
+R1
+IIz1amQZfCmU6YjlJ4Dk[K1
+R2
+w1617198210
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_keyreg.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_keyreg.v
+!i122 12
+L0 1 23
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_keyreg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_keyreg.v|
+!i113 1
+R6
+R7
+vaclk_lcd_display
+R8
+!i10b 1
+!s100 kT^02>N;d<hfBj1[[926g3
+R1
+I8QZ1HFIXn0mEHZgGPV?Zg0
+R2
+w1617862873
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_lcd_display.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_lcd_display.v
+!i122 13
+L0 1 51
+R3
+R4
+r1
+!s85 0
+31
+Z9 !s108 1617869486.000000
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_lcd_display.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_lcd_display.v|
+!i113 1
+R6
+R7
+vaclk_lcd_driver
+R8
+!i10b 1
+!s100 gfjL6a=O:FIT=nd8FiXb:0
+R1
+I4<UaF4=^ljc==in:7NoXX3
+R2
+w1617869378
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_lcd_driver.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_lcd_driver.v
+!i122 14
+Z10 L0 1 42
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_lcd_driver.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_lcd_driver.v|
+!i113 1
+R6
+R7
+vaclk_timegen
+R8
+!i10b 1
+!s100 6cT0o`hzUjK^jD=4nO:bl3
+R1
+IiNPAdoG@XhmkJTe>Rm^V40
+R2
+w1617793476
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_timegen.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_timegen.v
+!i122 15
+L0 1 29
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_timegen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/aclk_timegen.v|
+!i113 1
+R6
+R7
+valarm_clock_top
+Z11 !s110 1617869487
+!i10b 1
+!s100 ]0<Y>l?X8[LZY4>G5]bNI0
+R1
+Im:j6nFD[AHLDW4`3Om;111
+R2
+w1617869472
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/alarm_clock_top.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/alarm_clock_top.v
+!i122 16
+R10
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/alarm_clock_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/rtl/alarm_clock_top.v|
+!i113 1
+R6
+R7
+vtb_alarm_clock
+R11
+!i10b 1
+!s100 jc5M@emeaJ85L8l6YTJHV1
+R1
+IQ^5kB=zO?GzJ^h@P]GLDV2
+R2
+w1617868115
+8C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/tb/tb_alarm_clock.v
+FC:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/tb/tb_alarm_clock.v
+!i122 17
+L0 29 112
+R3
+R4
+r1
+!s85 0
+31
+!s108 1617869487.000000
+!s107 C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/tb/tb_alarm_clock.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Alarm_clock/tb/tb_alarm_clock.v|
+!i113 1
+R6
+R7

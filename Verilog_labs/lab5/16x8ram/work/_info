@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram
+vram168
+!s110 1616821336
+!i10b 1
+!s100 4f<fWlcVNYG^3o;HK@RaP3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IF5D;ko<Lb7[oiD7EmTZgP3
+R0
+w1616820992
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168.v
+!i122 16
+L0 1 13
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z4 !s108 1616821336.000000
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vram168_tb
+!s110 1616821337
+!i10b 1
+!s100 ]RQ8PzaUnMzn2Aj@3kRQE0
+R1
+I9>YTVJC1gJC9gKYhb5eYM2
+R0
+w1616821322
+8C:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168_tb.v
+FC:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168_tb.v
+!i122 17
+L0 1 43
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Aadhithan/Documents/Verilog_labs/lab5/16x8ram/ram168_tb.v|
+!i113 1
+R5
+R6

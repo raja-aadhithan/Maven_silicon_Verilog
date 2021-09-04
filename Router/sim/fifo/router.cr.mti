@@ -1,0 +1,15 @@
+C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module router_fifo
+
+Top level modules:
+	router_fifo
+
+} {} {}} C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Code-sync/Maven_verilog/Router/router_fifo_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module router_fifo_tb
+
+Top level modules:
+	router_fifo_tb
+
+} {} {}}

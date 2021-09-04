@@ -1,0 +1,15 @@
+C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module tfflop
+
+Top level modules:
+	tfflop
+
+} {} {}} C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff_tb.v {1 {vlog -work work -stats=none C:/Users/Aadhithan/Documents/Verilog_labs/lab4/TFF/tff_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module tff_tb
+
+Top level modules:
+	tff_tb
+
+} {} {}}

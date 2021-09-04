@@ -1,0 +1,14 @@
+vsim work.mux4_tb
+# vsim work.mux4_tb 
+# Start time: 13:01:20 on Mar 26,2021
+# Loading work.mux4_tb
+# Loading work.mux_dec
+add wave -position insertpoint sim:/mux4_tb/*
+run -all
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/muv_dec_tb.v(17)
+#    Time: 1 ns  Iteration: 0  Instance: /mux4_tb
+# 1
+# Break in Module mux4_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/muv_dec_tb.v line 17
+quit -sim
+# Break key hit
+# Closing project C:/Users/Aadhithan/Documents/Verilog_labs/lab1/mux using decoder/mux using decoder.mpf

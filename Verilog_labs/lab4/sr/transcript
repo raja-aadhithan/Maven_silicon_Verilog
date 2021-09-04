@@ -1,0 +1,46 @@
+# End time: 12:29:57 on Apr 01,2021, Elapsed time: 0:04:22
+# Errors: 0, Warnings: 3
+vsim work.sr_tb
+# vsim work.sr_tb 
+# Start time: 12:30:12 on Apr 01,2021
+# Loading work.sr_tb
+# Loading work.sr
+add wave -position insertpoint sim:/sr_tb/*
+run -all
+# @time  0 input is 0,0  - output is x,x
+# @time 10 input is 0,1  - output is 1,0
+# @time 20 input is 1,0  - output is 0,1
+# @time 30 input is 1,1  - output is 0,0
+# @time 40 input is 0,1  - output is 1,0
+# @time 50 input is 1,0  - output is 0,1
+# @time 60 input is 1,1  - output is 0,0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab4/sr/sr_tb.v(18)
+#    Time: 70 ps  Iteration: 0  Instance: /sr_tb
+# 1
+# Break in Module sr_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab4/sr/sr_tb.v line 18
+# End time: 12:30:30 on Apr 01,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 1
+# WLF meta update error: 
+# Error while executing: run
+# Usage: run {[<timesteps>[<time_units>]] | -all | -continue| -init | -next | -over [<n>]} | {-step [<n>] [-current] [-out] [-over [<n>]] [-this "this ==<class_handle>]}
+vsim work.sr_tb
+# vsim work.sr_tb 
+# Start time: 12:30:49 on Apr 01,2021
+# Loading work.sr_tb
+# Loading work.sr
+add wave -r sim:/sr_tb/*
+run -all
+# @time  0 input is 0,0  - output is x,x
+# @time 10 input is 0,1  - output is 1,0
+# @time 20 input is 1,0  - output is 0,1
+# @time 30 input is 1,1  - output is 0,0
+# @time 40 input is 0,1  - output is 1,0
+# @time 50 input is 1,0  - output is 0,1
+# @time 60 input is 1,1  - output is 0,0
+# ** Note: $finish    : C:/Users/Aadhithan/Documents/Verilog_labs/lab4/sr/sr_tb.v(18)
+#    Time: 70 ps  Iteration: 0  Instance: /sr_tb
+# 1
+# Break in Module sr_tb at C:/Users/Aadhithan/Documents/Verilog_labs/lab4/sr/sr_tb.v line 18
+quit -sim
+# End time: 12:33:03 on Apr 01,2021, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 1

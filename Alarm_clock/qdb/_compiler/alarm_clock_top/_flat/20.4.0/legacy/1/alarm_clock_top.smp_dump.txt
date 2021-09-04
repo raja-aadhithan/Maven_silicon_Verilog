@@ -1,0 +1,12 @@
+
+State Machine - Summary
+
+State Machine - fsm|pre_state
+Name pre_state.SET_CURRENT_TIME pre_state.SET_ALARM_TIME pre_state.KEY_STORED pre_state.SHOW_ALARM pre_state.KEY_ENTRY pre_state.KEY_WAITED pre_state.SHOW_TIME 
+pre_state.SHOW_TIME 0 0 0 0 0 0 0 
+pre_state.KEY_WAITED 0 0 0 0 0 1 1 
+pre_state.KEY_ENTRY 0 0 0 0 1 0 1 
+pre_state.SHOW_ALARM 0 0 0 1 0 0 1 
+pre_state.KEY_STORED 0 0 1 0 0 0 1 
+pre_state.SET_ALARM_TIME 0 1 0 0 0 0 1 
+pre_state.SET_CURRENT_TIME 1 0 0 0 0 0 1 

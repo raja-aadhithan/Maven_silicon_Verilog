@@ -1,0 +1,19 @@
+Fitter Status : Successful - Wed Mar 24 15:37:39 2021
+Quartus Prime Version : 20.4.0 Build 72 12/14/2020 SC Pro Edition
+Revision Name : full_adder
+Top-level Entity Name : full_adder
+Family : Cyclone 10 GX
+Device : 10CX220YF780I5G
+Timing Models : Final
+Power Models : Final
+Device Status : Final
+Logic utilization (in ALMs) : 1 / 80,330 ( < 1 % )
+Total registers : 0
+Total pins : 5 / 340 ( 1 % )
+Total virtual pins : 0
+Total block memory bits : 0 / 12,021,760 ( 0 % )
+Total RAM Blocks : 0 / 587 ( 0 % )
+Total DSP Blocks : 0 / 192 ( 0 % )
+Total HSSI RX channels : 0 / 12 ( 0 % )
+Total HSSI TX channels : 0 / 12 ( 0 % )
+Total PLLs : 0 / 30 ( 0 % )
